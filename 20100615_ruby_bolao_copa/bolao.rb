@@ -1,3 +1,3 @@
-def soma(n1, n2)
-  n1 + n2
+def bolao(apostador1, aposta, placar)
+  [apostador1, 0]
 end
