@@ -10,7 +10,7 @@ describe 'bolao' do
     aposta.pontuacao_resultado(resultado_final).should == 0
   end
 
-  it 'deve retornar 1 pontos quando acerta gols do time B' do
+  it 'deve retornar 1 ponto quando acerta gols do time B' do
     aposta = Resultado.new(0, 1)
     resultado_final = Resultado.new(2, 1)
     aposta.pontuacao_resultado(resultado_final).should == 1
