@@ -1,6 +1,4 @@
 def bolao(apostador1, aposta, placar)
-  if aposta[2] != placar[2]
-    return [apostador1, 0]
-  end
+  return [apostador1, 0] if aposta[2] != placar[2]
   [apostador1, 1]
 end
