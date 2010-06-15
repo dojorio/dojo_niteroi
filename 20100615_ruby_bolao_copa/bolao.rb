@@ -7,10 +7,7 @@ class Resultado
   end
 
   def pontuacao_resultado(resultado_final)
-    if @gols_time_a == resultado_final.gols_time_a
-      return 1
-    end
-    if @gols_time_b == resultado_final.gols_time_b
+    if @gols_time_a == resultado_final.gols_time_a && @gols_time_b == resultado_final.gols_time_b
       return 1
     end
     return 0
