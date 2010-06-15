@@ -3,11 +3,11 @@ Problema Bolão da Copa do Mundo
 Entrada:
 
     2 ou mais apostas
-    O apostador vencedor e seu número de pontos
+    O placar final dos jogos
 
 Saída:
 
-    Quantos pontos cada um fez
+    O apostador vencedor e o número de pontos que ele fez
 
 Regras:
 
