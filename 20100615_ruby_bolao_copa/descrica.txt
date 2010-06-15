@@ -11,6 +11,6 @@ Saída:
 
 Regras:
 
-    Acertar o resultado da partida: 2 pontos
+    Acertar o vitória / empate: 2 pontos
     Acertar o número de gols do time A: 1 ponto
     Acertar o número de gols do time B: 1 ponto
