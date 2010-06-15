@@ -9,6 +9,6 @@ describe 'bolao' do
   end
   it '"Mario" nao acerta nada' do
     apostador1 = "Mario"
-    bolao(apostador1, "0x0", "2x1").should == [apostador1, 0]
+    bolao(apostador1, "0x1", "2x1").should == [apostador1, 0]
   end
 end
