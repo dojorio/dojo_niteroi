@@ -2,8 +2,8 @@ require 'rubygems'
 require 'spec'
 require 'bolao'
 
-describe 'soma' do
-  it 'test pass' do
-    soma(1, 1).should == 2
+describe 'bolao' do
+  it 'apostador 1 não acerta nada' do
+    bolao(apostador1, "0x0", "2x1").should == [apostador1, 0]
   end
 end
