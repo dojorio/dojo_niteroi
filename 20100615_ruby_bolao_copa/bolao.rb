@@ -6,8 +6,16 @@ class Resultado
     @gols_time_b = gols_time_b
   end
 
+  def acertou_gols_time_a(resultado)
+    return @gols_time_a == resultado_final.gols_time_a
+  end
+
+  def acertou_gols_time_b(resultado)
+    return @gols_time_b == resultado_final.gols_time_b
+  end
+
   def pontuacao_resultado(resultado_final)
-    if @gols_time_a == resultado_final.gols_time_a || @gols_time_b == resultado_final.gols_time_b
+    if acertou_gols_time_a(resultado_final) || acertou_gols_time_b(resultado_final)
       return 1
     end
     return 0
