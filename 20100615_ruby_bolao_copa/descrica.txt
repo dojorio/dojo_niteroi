@@ -3,7 +3,7 @@ Problema Bolão da Copa do Mundo
 Entrada:
 
     2 ou mais apostas
-    O placar final dos jogos
+    O apostador vencedor e seu número de pontos
 
 Saída:
 
