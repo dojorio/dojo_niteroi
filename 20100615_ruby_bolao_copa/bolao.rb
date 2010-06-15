@@ -1,5 +1,7 @@
 class Resultado
 
+  attr_accessor "gols_time_a"
+  attr_accessor "gols_time_b"
   def initialize(gols_time_a, gols_time_b)
     @gols_time_a = gols_time_a
     @gols_time_b = gols_time_b
