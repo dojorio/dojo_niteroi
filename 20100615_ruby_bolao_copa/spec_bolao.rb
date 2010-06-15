@@ -16,6 +16,12 @@ describe 'bolao' do
     aposta.pontuacao_resultado(resultado_final).should == 1
   end
 
+  it 'deve retornar 1 ponto quando acerta gols do time A' do
+    aposta = Resultado.new(1, 0)
+    resultado_final = Resultado.new(2, 1)
+    aposta.pontuacao_resultado(resultado_final).should == 1
+  end
+
   it '"Mario" nao acerta nada' do
     apostador1 = "Mario"
     bolao(apostador1, "0x0", "2x1").should == [apostador1, 0]
