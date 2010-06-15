@@ -7,7 +7,7 @@ describe 'bolao' do
   it 'deve retornar 0 pontos quando toda aposta estiver errada' do
     aposta = Resultado.new(0, 0)
     resultado_final = Resultado.new(2, 1)
-    aposta.pontuacao_resultado(resultado).should == 0
+    aposta.pontuacao_resultado(resultado_final).should == 0
   end
 
   it '"Mario" nao acerta nada' do
