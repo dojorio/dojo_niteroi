@@ -7,11 +7,11 @@ class Resultado
   end
 
   def acertou_gols_time_a(resultado)
-    return @gols_time_a == resultado_final.gols_time_a
+    return @gols_time_a == resultado.gols_time_a
   end
 
   def acertou_gols_time_b(resultado)
-    return @gols_time_b == resultado_final.gols_time_b
+    return @gols_time_b == resultado.gols_time_b
   end
 
   def pontuacao_resultado(resultado_final)
