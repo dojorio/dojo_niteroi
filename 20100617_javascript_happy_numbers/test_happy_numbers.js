@@ -43,3 +43,10 @@ describe('Split numbers', {
         value_of(splitNumber(2334)).should_be([2, 3, 3, 4]);
     },
 });
+
+describe('Sum Pow Array', {
+
+    "[7] becomes 49": function() {
+        value_of(sumPowArray(7)).should_be([49]);
+    },
+});
