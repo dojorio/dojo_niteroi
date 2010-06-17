@@ -23,5 +23,14 @@ describe('Happy Numbers', {
         value_of(happyNumber(10)).should_be(happy);
     },
 
+});
+
+describe('Split numbers', {
+
+    "1 becomes [1]": function() {
+        value_of(splitNumber(1)).should_be([1]);
+    },
+
+});
 
 });
