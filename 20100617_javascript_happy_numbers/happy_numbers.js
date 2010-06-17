@@ -2,7 +2,7 @@ function happyNumber(number){
 
     while (number != 1){
         var splittedNumber = splitNumber(number);
-
+        number = sumPowArray(splittedNumber);
     }
 
 
