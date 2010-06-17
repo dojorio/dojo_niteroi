@@ -27,5 +27,5 @@ function splitNumber(number){
 }
 
 function sumPowArray(splittedNumber){
-    return 49
+    return splittedNumber[0] ^ 2;
 }
