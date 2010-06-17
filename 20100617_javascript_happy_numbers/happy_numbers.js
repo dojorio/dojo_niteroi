@@ -8,5 +8,5 @@ function happyNumber(number){
 }
 
 function splitNumber(number){
-    return [1]
+    return [number]
 }
