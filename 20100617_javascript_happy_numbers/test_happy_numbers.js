@@ -6,7 +6,7 @@ describe('Happy Numbers', {
     },
 
     'return "I\'m sad" for 2': function() {
-        value_of(happy(2)).should_be("I'm sad");
+        value_of(happy(2)).should_be(sad);
     },
 
 });
