@@ -2,10 +2,6 @@ function happyNumber(number){
 
     var _olderNumbers = new Array()
 
-    if(number == 2 || number == 3){
-        return "I'm sad";
-    }
-
     while (number != 1 && _olderNumbers.indexOf(number) != -1){
         _olderNumbers.push(number);
         var splittedNumber = splitNumber(number);
