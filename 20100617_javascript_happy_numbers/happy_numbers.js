@@ -26,7 +26,7 @@ function splitNumber(number){
     return _splittedNumber;
 }
 
-function sumPow(number){
+function sumPowArray(_splittedNumber){
 
 
 }
