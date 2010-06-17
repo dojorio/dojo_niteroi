@@ -36,7 +36,7 @@ describe('Split numbers', {
     },
 
     "23 becomes [2, 3]": function() {
-        value_of(splitNumber(2)).should_be([2, 3]);
+        value_of(splitNumber(23)).should_be([2, 3]);
     },
 
 });
