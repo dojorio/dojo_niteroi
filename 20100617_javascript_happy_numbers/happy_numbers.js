@@ -27,5 +27,5 @@ function splitNumber(number){
 }
 
 function sumPowArray(splittedNumber){
-    return splittedNumber[0] ^ 2;
+    return Math.pow(splittedNumber[0], 2);
 }
