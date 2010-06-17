@@ -1,7 +1,7 @@
 function happyNumber(number){
 
     while (number != 1){
-        var splittedNumber;
+        var splittedNumber = splitNumber(number);
 
     }
 
