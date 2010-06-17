@@ -1,4 +1,5 @@
-happy: "I'm happy", sad: "I'm sad",
+var happy = "I'm happy";
+var sad = "I'm sad",
 describe('Happy Numbers', {
 
     'return "I\'m happy" for 1': function() {
