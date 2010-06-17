@@ -1,4 +1,13 @@
 function happyNumber(number){
+/*    var aux;
+    while (number != 1){
+        aux = 1;
+        while(aux<splitNumber(number).length){
+
+
+        }
+    }*/
+
 
     if (number == 1 || number == 7 || number == 10){
         return "I'm happy";
@@ -15,4 +24,9 @@ function splitNumber(number){
         _splittedNumber.push(parseInt(_strNumber[i]));
     }
     return _splittedNumber;
+}
+
+function sumPow(number){
+
+
 }
