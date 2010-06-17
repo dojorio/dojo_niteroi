@@ -39,4 +39,7 @@ describe('Split numbers', {
         value_of(splitNumber(23)).should_be([2, 3]);
     },
 
+    "2334 becomes [2, 3, 3, 4]": function() {
+        value_of(splitNumber(2334)).should_be([2, 3, 3, 4]);
+    },
 });
