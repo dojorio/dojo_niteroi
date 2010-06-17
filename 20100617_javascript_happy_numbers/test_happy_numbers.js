@@ -12,7 +12,7 @@ describe('Happy Numbers', {
     },
 
     "3 says: I'm sad": function() {
-        value_of(happyNumber(2)).should_be(sad);
+        value_of(happyNumber(3)).should_be(sad);
     },
 
 });
