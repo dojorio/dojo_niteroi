@@ -15,4 +15,8 @@ describe('Happy Numbers', {
         value_of(happyNumber(3)).should_be(sad);
     },
 
+    "7 says: I'm happy": function() {
+        value_of(happyNumber(7)).should_be(happy);
+    },
+
 });
