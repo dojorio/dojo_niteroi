@@ -28,8 +28,10 @@ function splitNumber(number){
 
 function sumPowArray(splittedNumber){
     var total = 0;
+
     for (var i = 0; i < splittedNumber.length; i++)
     {
+        alert(splittedNumber)
         total += (splittedNumber[i] ^ 2)
     }
     return total
