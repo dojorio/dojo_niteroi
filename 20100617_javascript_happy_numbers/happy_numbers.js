@@ -1,11 +1,8 @@
 function happyNumber(number){
-    var aux;
+
     while (number != 1){
-        aux = 1;
-        while(aux<splitNumber(number).length){
+        var splittedNumber;
 
-
-        }
     }
 
 
