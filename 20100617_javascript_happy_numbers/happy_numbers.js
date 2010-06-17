@@ -26,7 +26,11 @@ function splitNumber(number){
     return _splittedNumber;
 }
 
-function sumPowArray(_splittedNumber){
-
-
+function sumPowArray(splittedNumber){
+    var total = 0;
+    for (var i = 0; i < splittedNumber.length; i++)
+    {
+        total += splittedNumber[i] ^ 2
+    }
+    return total
 }
