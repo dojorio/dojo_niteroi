@@ -9,10 +9,10 @@ function happyNumber(number){
 
 function splitNumber(number){
     var _strNumber = new String(number);
-    var _return = new Array();
+    var _splittedNumber = new Array();
     for (var i = 0; i < _strNumber.length; i++)
     {
-        _return.push(parseInt(_strNumber[i]));
+        _splittedNumber.push(parseInt(_strNumber[i]));
     }
-    return _return;
+    return _splittedNumber;
 }
