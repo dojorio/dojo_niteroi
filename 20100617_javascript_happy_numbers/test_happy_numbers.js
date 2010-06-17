@@ -53,4 +53,8 @@ describe('Sum Pow Array', {
     "[6] becomes 36": function() {
         value_of(sumPowArray([6])).should_be(36);
     },
+
+    "[3, 6] becomes 45": function() {
+        value_of(sumPowArray([3, 6])).should_be(45);
+    },
 });
