@@ -1,3 +1,3 @@
-function soma(a, b){
-    return a + b;
+function Happy(n){
+    return "I'm Happy";
 }
