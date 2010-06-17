@@ -31,4 +31,8 @@ describe('Split numbers', {
         value_of(splitNumber(1)).should_be([1]);
     },
 
+    "2 becomes [2]": function() {
+        value_of(splitNumber(2)).should_be([2]);
+    },
+
 });
