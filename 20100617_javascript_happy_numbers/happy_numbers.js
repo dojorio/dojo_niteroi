@@ -10,7 +10,7 @@ function happyNumber(number){
 function splitNumber(number){
     var _strNumber = new String(number);
     var _return = new Array();
-    for (var i = 0; i < _tmp.length; i++)
+    for (var i = 0; i < _strNumber.length; i++)
     {
         _return.push(parseInt(_strNumber[i]));
     }
