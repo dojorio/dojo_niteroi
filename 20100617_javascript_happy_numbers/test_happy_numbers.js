@@ -1,12 +1,13 @@
 var happy = "I'm happy";
 var sad = "I'm sad";
+
 describe('Happy Numbers', {
 
-    'return "I\'m happy" for 1': function() {
+    "1 says: I'm happy": function() {
         value_of(happyNumber(1)).should_be(happy);
     },
 
-    'return "I\'m sad" for 2': function() {
+    "2 says: I'm sad": function() {
         value_of(happyNumber(2)).should_be(sad);
     },
 
