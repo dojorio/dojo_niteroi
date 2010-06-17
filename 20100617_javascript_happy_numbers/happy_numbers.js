@@ -1,7 +1,7 @@
 function happyNumber(number){
 
     if(number == 2 || number == 3){
-    return "I'm sad";
+        return "I'm sad";
     }
     while (number != 1){
         var splittedNumber = splitNumber(number);
