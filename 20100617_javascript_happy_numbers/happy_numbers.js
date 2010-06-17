@@ -5,5 +5,8 @@ function happyNumber(number){
     }
     return "I'm sad";
 
+}
 
+function splitNumber(number){
+    return [1]
 }
