@@ -9,12 +9,6 @@ function happyNumber(number){
     }
     return "I'm happy";
 
-
-    if (number == 1 || number == 7 || number == 10){
-        return "I'm happy";
-    }
-    return "I'm sad";
-
 }
 
 function splitNumber(number){
