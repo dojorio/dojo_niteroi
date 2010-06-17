@@ -1,12 +1,12 @@
 function happyNumber(number){
-/*    var aux;
+    var aux;
     while (number != 1){
         aux = 1;
         while(aux<splitNumber(number).length){
 
 
         }
-    }*/
+    }
 
 
     if (number == 1 || number == 7 || number == 10){
