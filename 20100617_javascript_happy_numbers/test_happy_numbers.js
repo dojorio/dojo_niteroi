@@ -32,5 +32,3 @@ describe('Split numbers', {
     },
 
 });
-
-});
