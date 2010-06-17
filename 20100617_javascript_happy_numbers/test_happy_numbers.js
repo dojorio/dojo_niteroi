@@ -47,6 +47,6 @@ describe('Split numbers', {
 describe('Sum Pow Array', {
 
     "[7] becomes 49": function() {
-        value_of(sumPowArray(7)).should_be([49]);
+        value_of(sumPowArray([7])).should_be([49]);
     },
 });
