@@ -8,5 +8,9 @@ function happyNumber(number){
 }
 
 function splitNumber(number){
-    return [number]
+    var _tmp = number  + "";
+    var _return = new Array();
+    for (var i = 0; i < _tmp.length; i++)
+        _return.push(_tmp[i]/1);
+    return _return;
 }
