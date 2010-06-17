@@ -31,7 +31,7 @@ function sumPowArray(splittedNumber){
 
     for (var i = 0; i < splittedNumber.length; i++)
     {
-        alert(splittedNumber)
+        alert(splittedNumber[i])
         total += (splittedNumber[i] ^ 2)
     }
     return total
