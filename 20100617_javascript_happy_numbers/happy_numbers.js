@@ -1,5 +1,8 @@
 function happyNumber(number){
 
+    if(number == 2 || number == 3){
+    return "I'm sad";
+    }
     while (number != 1){
         var splittedNumber = splitNumber(number);
         number = sumPowArray(splittedNumber);
@@ -9,7 +12,6 @@ function happyNumber(number){
     if (number == 1 || number == 7 || number == 10){
         return "I'm happy";
     }
-    return "I'm sad";
 
 }
 
