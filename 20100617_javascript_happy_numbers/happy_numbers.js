@@ -7,11 +7,13 @@ function happyNumber(number){
         var splittedNumber = splitNumber(number);
         number = sumPowArray(splittedNumber);
     }
+    return "I'm happy";
 
 
     if (number == 1 || number == 7 || number == 10){
         return "I'm happy";
     }
+    return "I'm sad";
 
 }
 
