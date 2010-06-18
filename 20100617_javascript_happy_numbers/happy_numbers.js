@@ -1,4 +1,4 @@
-function happyNumber(number){
+function happyNumber(number, debug){
 
     var _olderNumbers = new Array()
 
@@ -11,7 +11,7 @@ function happyNumber(number){
     if (number == 1){
         return "I'm happy";
     } else {
-        alert(number)
+        if (debug)alert(number)
         return "I'm sad";
     }
 
