@@ -1,4 +1,4 @@
-function happyNumber(number, debug){
+function happyNumber(number){
 
     var _olderNumbers = new Array()
 
