@@ -27,6 +27,10 @@ describe('Happy Numbers', {
         value_of(happyNumber(10, true)).should_be(happy);
     },
 
+    "376 says: I'm happy": function() {
+        value_of(happyNumber(376, true)).should_be(happy);
+    },
+
 });
 
 describe('Split numbers', {
