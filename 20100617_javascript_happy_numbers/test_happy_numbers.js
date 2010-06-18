@@ -20,11 +20,11 @@ describe('Happy Numbers', {
     },
 
     "7 says: I'm happy": function() {
-        value_of(happyNumber(7)).should_be(happy);
+        value_of(happyNumber(7, true)).should_be(happy);
     },
 
     "10 says: I'm happy": function() {
-        value_of(happyNumber(10)).should_be(happy);
+        value_of(happyNumber(10, true)).should_be(happy);
     },
 
 });
