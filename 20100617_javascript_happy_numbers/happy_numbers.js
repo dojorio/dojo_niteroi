@@ -11,7 +11,6 @@ function happyNumber(number, debug){
     if (number == 1){
         return "I'm happy";
     } else {
-        if (debug)alert(number)
         return "I'm sad";
     }
 
