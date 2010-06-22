@@ -1,0 +1,7 @@
+=== Problema das olimpíadas ===
+
+O problema recebe uma lista de países participantes de uma olimpíada. Para cada país, temos o número de medalhas de ouro, prata e bronze. A saída deve ser a tabela final de posições no ranking de medalhas.
+
+Caso o número de medalhas de ouro seja igual, o critério de desempate será o número das de prata.
+Caso o número de medalhas de prata seja igual, o critério de desempate será o número das de bronze.
+Caso o número de medalhas de bronze seja igual, o critério de desempate será a ordem alfabética entre os países.
