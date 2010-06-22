@@ -1,4 +1,5 @@
 import unittest
+from olimpiadas import calcula_ranking
 
 class TestOlimpiadas(unittest.TestCase):
 
