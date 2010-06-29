@@ -43,7 +43,7 @@ class TestJogoDaVelha(unittest.TestCase):
         ]
         self.assertEquals(avalia_jogo(entrada), 'X')
 
-    def test_X_ganha_linha_2_primeira_linha_vazia(self):
+    def test_O_ganha_linha_2_primeira_linha_vazia(self):
         entrada = [
             ('', '', ''),
             ('O', 'O', 'O'),
