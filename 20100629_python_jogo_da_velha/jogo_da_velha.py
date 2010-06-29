@@ -1,7 +1,7 @@
 def avalia_jogo(jogo):
     if avalia_linhas(jogo):
         return avalia_linhas(jogo)
-    return jogo[0][0]
+    return avalia_colunas(jogo)
 
 def avalia_linhas(jogo):
     for linha in jogo:
