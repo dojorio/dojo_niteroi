@@ -1,5 +1,5 @@
 def avalia_jogo(jogo):
-    return avalia_linhas(jogo)
+        return avalia_linhas(jogo)
 
 def avalia_linhas(jogo):
     for linha in jogo:
