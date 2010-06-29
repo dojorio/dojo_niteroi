@@ -12,7 +12,7 @@ def avalia_linhas(jogo):
 
 def avalia_colunas(jogo):
     for coluna in range(3):
-        if not jogo[0][coluna]
+        if not jogo[0][coluna]:
             continue
         if jogo[0][coluna] == jogo[1][coluna] == jogo[2][coluna]:
             return jogo[0][coluna]
