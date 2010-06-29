@@ -91,6 +91,13 @@ class TestJogoDaVelha(unittest.TestCase):
         ]
         self.assertEquals(avalia_jogo(entrada), 'X')
 
+    def test_O_ganha_coluna_2_coluna_1_vazia(self):
+        entrada = [
+            ('', 'O', 'X'),
+            ('', 'O', ''),
+            ('', 'O', 'X'),
+        ]
+        self.assertEquals(avalia_jogo(entrada), 'O')
 
 if __name__ == '__main__':
     unittest.main()
