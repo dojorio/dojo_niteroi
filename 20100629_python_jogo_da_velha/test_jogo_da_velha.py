@@ -1,4 +1,5 @@
 import unittest
+from jogo_da_velha import avalia_jogo
 
 class TestJogoDaVelha(unittest.TestCase):
 
