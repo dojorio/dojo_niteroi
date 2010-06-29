@@ -1,0 +1,9 @@
+Prblema do Jogo da Velha
+
+Entrada: Uma situação terminada de um jogo da velha. Por exemplo:
+
+X|O|X
+O|X|O
+X|O|X
+
+Saída: Dizer qual jogador ganhou (X ou O) ou se foi velha
