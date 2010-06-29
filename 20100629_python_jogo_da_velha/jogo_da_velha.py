@@ -12,5 +12,5 @@ def avalia_linhas(jogo):
 
 def avalia_colunas(jogo):
     for coluna in range(3):
-        if jogo[0][coluna] == jogo[1][coluna] == jogo[2][coluna]
+        if jogo[0][coluna] == jogo[1][coluna] == jogo[2][coluna]:
             return jogo[0][coluna]
