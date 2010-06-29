@@ -19,5 +19,12 @@ class TestJogoDaVelha(unittest.TestCase):
         ]
         self.assertEquals(avalia_jogo(entrada), '0')
 
+    def test_0_ganha_linha_2(self):
+        entrada = [
+            ('X', '', ''),
+            ('0', '0', '0'),
+            ('', 'X', ''),
+        ]
+        self.assertEquals(avalia_jogo(entrada), '0')
 if __name__ == '__main__':
     unittest.main()
