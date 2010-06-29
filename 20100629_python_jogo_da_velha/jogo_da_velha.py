@@ -1,2 +1,4 @@
 def avalia_jogo(entrada):
-    return entrada[0][0]
+    if entrada[0][0] == 'O' || entrada[1][0] == 'O'
+        return entrada[0][0]
+    return 'X'
