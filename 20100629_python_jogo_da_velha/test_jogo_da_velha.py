@@ -6,25 +6,25 @@ class TestJogoDaVelha(unittest.TestCase):
     def test_X_ganha_linha_1(self):
         entrada = [
             ('X', 'X', 'X'),
-            ('0', '', ''),
-            ('', '0', ''),
+            ('O', '', ''),
+            ('', 'O', ''),
         ]
         self.assertEquals(avalia_jogo(entrada), 'X')
 
-    def test_0_ganha_linha_1(self):
+    def test_O_ganha_linha_1(self):
         entrada = [
-            ('0', '0', '0'),
+            ('O', 'O', 'O'),
             ('X', '', ''),
             ('', 'X', ''),
         ]
-        self.assertEquals(avalia_jogo(entrada), '0')
+        self.assertEquals(avalia_jogo(entrada), 'O')
 
     def test_0_ganha_linha_2(self):
         entrada = [
             ('X', '', ''),
-            ('0', '0', '0'),
+            ('O', 'O', 'O'),
             ('', 'X', ''),
         ]
-        self.assertEquals(avalia_jogo(entrada), '0')
+        self.assertEquals(avalia_jogo(entrada), 'O')
 if __name__ == '__main__':
     unittest.main()
