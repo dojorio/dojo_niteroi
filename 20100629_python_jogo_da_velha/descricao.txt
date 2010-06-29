@@ -2,7 +2,7 @@ Prblema do Jogo da Velha
 
 Entrada: Uma situação terminada de um jogo da velha. Por exemplo:
 
-X|O|X
+X|O|(vazio)
 O|X|O
 X|O|X
 
