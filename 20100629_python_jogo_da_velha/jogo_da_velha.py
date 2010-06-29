@@ -2,6 +2,6 @@ def avalia_jogo(entrada):
     return avalia_linhas(entrada)
 
 def avalia_linhas(entrada):
-    for linha in entrada(3):
+    for linha in entrada:
         if entrada[linha][0] == entrada [linha][1] == entrada[linha][2]:
             return entrada[linha][0]
