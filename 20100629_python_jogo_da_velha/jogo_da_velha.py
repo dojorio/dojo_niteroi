@@ -3,4 +3,3 @@ def avalia_jogo(entrada):
         return entrada[0][0]
     if entrada[1][0] == entrada[1][1] == entrada[1][2]:
         return entrada[1][0]
-    return 'O'
