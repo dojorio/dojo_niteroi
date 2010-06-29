@@ -3,7 +3,7 @@ from jogo_da_velha import avalia_jogo
 
 class TestJogoDaVelha(unittest.TestCase):
 
-    def test_method(self):
+    def test_X_ganha_linha_1(self):
         entrada = [
             ('X', 'X', 'X'),
             ('0', '', ''),
