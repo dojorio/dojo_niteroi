@@ -1,2 +1,2 @@
 def avalia_jogo(entrada):
-    pass
+    return 'X'
