@@ -1,5 +1,5 @@
 def avalia_jogo(jogo):
-    if avalia_linhas(jogo) == None:
+    if avalia_linhas(jogo) != None:
         return avalia_linhas(jogo)
     return 'X'
 
