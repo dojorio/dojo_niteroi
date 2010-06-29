@@ -43,13 +43,13 @@ class TestJogoDaVelha(unittest.TestCase):
         ]
         self.assertEquals(avalia_jogo(entrada), 'X')
 
-    def test_deu_velha(self):
+    def test_X_ganha_coluna_1(self):
         entrada = [
-            ('', '', 'O'),
-            ('X', 'X', ''),
-            ('O', 'O', ''),
+            ('X', '', 'O'),
+            ('X', '', ''),
+            ('X', 'O', ''),
         ]
-        self.assertEquals(avalia_jogo(entrada), 'velha')
+        self.assertEquals(avalia_jogo(entrada), 'X')
 
 if __name__ == '__main__':
     unittest.main()
