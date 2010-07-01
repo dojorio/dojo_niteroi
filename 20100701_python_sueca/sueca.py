@@ -5,7 +5,7 @@ class Carta(object):
         self.valor = 0
         self.calcula_valor()
 
-    def calcula_valor():
+    def calcula_valor(self):
         valores = { '2':0,
                     '3':0,
                     '4':0,
