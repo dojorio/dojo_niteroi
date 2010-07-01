@@ -7,8 +7,7 @@ class TestSomatorioMesa(unittest.TestCase):
         carta2 = Carta('Copas', '3')
         carta3 = Carta('Copas', '4')
         carta4 = Carta('Copas', '5')
-        self.assertEquals(somatorio(carta1, carta2,
-                                    carta3, carta4), 0)
+        self.assertEquals(somatorio(carta1, carta2, carta3, carta4), 0)
 
 
 if __name__ == '__main__':
