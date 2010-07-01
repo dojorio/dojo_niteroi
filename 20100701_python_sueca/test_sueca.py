@@ -3,7 +3,7 @@ from sueca import Carta
 from sueca import somatorio
 
 class TestSomatorioMesa(unittest.TestCase):
-    def test_tudo_zero(self):
+    def test_2_3_4_5_retorna_0(self):
         cartas = [
             Carta('Copas', '2'),
             Carta('Copas', '3'),
