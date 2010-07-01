@@ -1,7 +1,7 @@
 class Carta(object):
-    def __init__(self, naipe, carta, valor):
+    def __init__(self, naipe, nome, valor):
         self.naipe = naipe
-        self.carta = carta
+        self.nome = nome
         self.valor = valor
 
 def somatorio(carta1, carta2, carta3, carta4):
