@@ -3,7 +3,7 @@ class Carta(object):
         self.naipe = naipe
         self.carta = carta
     @property
-    def valor:
+    def valor(self):
         return 11
 
 def pontuacao():
