@@ -22,4 +22,4 @@ def somatorio(cartas):
     return sum([carta.valor for carta in cartas])
 
 def rodada(cartas, trunfo):
-    return (cartas[0][0], somatorio(cartas[1]))
+    return (cartas[0][0], cartas[0][1].valor+cartas[1][1].valor+cartas[2][1].valor+cartas[3][1].valor)
