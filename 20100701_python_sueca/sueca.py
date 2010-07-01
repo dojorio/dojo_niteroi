@@ -25,4 +25,4 @@ def rodada(jogadas, trunfo):
     lista_de_cartas = [carta[1] for carta in jogadas]
 
 
-    return (cartas[0][0], somatorio(lista_de_cartas))
+    return (jogadas[0][0], somatorio(lista_de_cartas))
