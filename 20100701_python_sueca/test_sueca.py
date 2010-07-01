@@ -12,7 +12,7 @@ class TestGanhadorDaRodada(unittest.TestCase):
             Carta('Copas', '5'),
         ]
         trunfo = "Copas"
-        self.assertEquals(rodada(cartas, trunfo))
+        self.assertEquals(rodada(cartas, trunfo), 0)
 
 class TestSomatorioMesa(unittest.TestCase):
     def test_2_3_4_5_retorna_0(self):
