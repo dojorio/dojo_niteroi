@@ -13,7 +13,7 @@ class Carta(object):
 
 
 def somatorio(cartas):
-    return 0
+    return sum([carta.valor for carta in cartas])
 
 def pontuacao():
     return ''
