@@ -1,5 +1,6 @@
 import unittest
 from sueca import Carta
+from sueca import somatorio
 
 class TestSomatorioMesa(unittest.TestCase):
     def test_tudo_zero(self):
