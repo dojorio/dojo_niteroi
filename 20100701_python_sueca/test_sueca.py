@@ -11,7 +11,7 @@ class TestSomatorioMesa(unittest.TestCase):
             Carta('Copas', '5')]
         self.assertEquals(somatorio(cartas), 0)
 
-    def test_A_e_tudo_zero(self):
+    def test_A_3_4_5_retorna_11(self):
         cartas = [
             Carta('Copas', 'A'),
             Carta('Copas', '3'),
