@@ -11,13 +11,13 @@ class TestSomatorioMesa(unittest.TestCase):
             Carta('Copas', '5')]
         self.assertEquals(somatorio(cartas), 0)
 
-def test_tudo_zero(self):
+    def test_tudo_zero(self):
         cartas = [
             Carta('Copas', 'A'),
             Carta('Copas', '3'),
             Carta('Copas', '4'),
             Carta('Copas', '5')]
-        self.assertEquals(somatorio(cartas), 0)
+        self.assertEquals(somatorio(cartas), 11)
 
 if __name__ == '__main__':
     unittest.main()
