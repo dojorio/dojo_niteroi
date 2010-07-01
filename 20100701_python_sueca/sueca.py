@@ -21,8 +21,8 @@ class Carta(object):
 def somatorio(cartas):
     return sum([carta.valor for carta in cartas])
 
-def rodada(cartas, trunfo):
-    lista_de_cartas = [carta[1] for carta in cartas]
+def rodada(jogadas, trunfo):
+    lista_de_cartas = [carta[1] for carta in jogadas]
 
 
     return (cartas[0][0], somatorio(lista_de_cartas))
