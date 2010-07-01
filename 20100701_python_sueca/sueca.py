@@ -4,7 +4,7 @@ class Carta(object):
         self.carta = carta
     @property
     def valor(self):
-        if self.carta == '7'
+        if self.carta == '7':
             return 10
         return 11
 
