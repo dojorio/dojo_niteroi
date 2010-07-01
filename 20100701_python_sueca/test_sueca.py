@@ -1,6 +1,7 @@
 import unittest
 from sueca import Carta
 from sueca import somatorio
+from sueca import rodada
 
 class TestGanhadorDaRodada(unittest.TestCase):
 
