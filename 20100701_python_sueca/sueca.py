@@ -3,7 +3,7 @@ class Carta(object):
         self.naipe = naipe
         self.nome = nome
         self.valor = 0
-        calcula_valor()
+        self.calcula_valor()
 
     def calcula_valor():
         valores = { '2':0,
