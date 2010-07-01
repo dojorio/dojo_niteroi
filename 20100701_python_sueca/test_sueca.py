@@ -7,6 +7,9 @@ class TestValoresCartas(unittest.TestCase):
         carta = Carta('Copas', 'A')
         self.assertEquals(carta.valor, 11)
 
+    def test_7_vale_10_pontos(self):
+        carta = Carta('Copas', '7')
+        self.assertEquals(carta.valor, 10)
 
 if __name__ == '__main__':
     unittest.main()
