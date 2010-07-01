@@ -18,6 +18,9 @@ class Carta(object):
         self.nome = nome
         self.valor = valores[self.nome]
 
+def __gt__(self, carta):
+    self.valor > carta.valor
+
 def somatorio(cartas):
     return sum([carta.valor for carta in cartas])
 
@@ -26,6 +29,7 @@ def rodada(jogadas, trunfo):
 
     pontos_vencedor = somatorio(lista_de_cartas)
     vencedor = ""
+
     for dupla in jogadas:
         if dupla[1].valor == pontos_vencedor:
             vencedor = dupla[0]
