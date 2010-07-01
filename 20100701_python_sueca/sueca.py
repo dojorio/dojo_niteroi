@@ -33,9 +33,5 @@ def rodada(jogadas, trunfo):
     maior_carta = max(lista_de_cartas)
     indice_do_vencedor = lista_de_cartas.index(maior_carta)
     vencedor = jogadas[indice_do_vencedor][0]
-   # for dupla in jogadas:
-       # if dupla[1].valor == pontos_vencedor:
-        #    vencedor = dupla[0]
-
 
     return (vencedor, pontos_vencedor)
