@@ -21,5 +21,5 @@ class Carta(object):
 def somatorio(cartas):
     return sum([carta.valor for carta in cartas])
 
-def pontuacao():
-    return ''
+def rodada(cartas, trunfo):
+    return 0
