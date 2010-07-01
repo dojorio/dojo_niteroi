@@ -4,6 +4,8 @@ class Carta(object):
         self.carta = carta
         self.valor = valor
 
+def somatorio(carta1, carta2, carta3, carta4):
+
 
 def pontuacao():
     return ''
