@@ -3,7 +3,7 @@ valores = { '2':0,
             '4':0,
             '5':0}
 
-class CartaSueca(object):
+class Carta(object):
 
     def __init__(self, naipe, nome):
         self.naipe = naipe
