@@ -24,5 +24,10 @@ def somatorio(cartas):
 def rodada(jogadas, trunfo):
     lista_de_cartas = [carta[1] for carta in jogadas]
 
+    pontos_vencedor = somatorio(lista_de_cartas)
+    vencedor
+    for dupla in cartas
+        if dupla[1].valor == pontos_vencedor
+            vencedor = dupla[0]
 
-    return (jogadas[0][0], somatorio(lista_de_cartas))
+    return (jogadas[0][0], )
