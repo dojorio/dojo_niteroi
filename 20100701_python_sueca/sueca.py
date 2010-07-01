@@ -4,7 +4,7 @@ class Carta(object):
         self.nome = nome
         self.valor = valor
 
-def somatorio(carta1):
+def somatorio(carta):
     return 0
 
 def pontuacao():
