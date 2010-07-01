@@ -30,4 +30,4 @@ def rodada(jogadas, trunfo):
         if dupla[1].valor == pontos_vencedor:
             vencedor = dupla[0]
 
-    return (jogadas[0][0], )
+    return (vencedor, pontos_vencedor)
