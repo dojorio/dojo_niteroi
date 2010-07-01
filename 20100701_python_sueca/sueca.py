@@ -1,4 +1,4 @@
-class carta(object):
+class Carta(object):
     def __init__(self, naipe, carta):
         self.naipe = naipe
         self.carta = carta
