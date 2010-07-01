@@ -15,6 +15,16 @@ class TestGanhadorDaRodada(unittest.TestCase):
         trunfo = "Copas"
         self.assertEquals(rodada(jogadas, trunfo), ('Alice', 11))
 
+    def test_jogador_2_ganha_com_A_copas_trunfo_Copas(self):
+        jogadas = [
+            ('Alice', Carta('Copas', '3')),
+            ('Bob', Carta('Copas', 'A')),
+            ('Charlie', Carta('Copas', '4')),
+            ('Debora', Carta('Copas', '5')),
+        ]
+        trunfo = "Copas"
+        self.assertEquals(rodada(jogadas, trunfo), ('Bob', 11))
+
 class TestSomatorioMesa(unittest.TestCase):
     def test_2_3_4_5_retorna_0(self):
         cartas = [
