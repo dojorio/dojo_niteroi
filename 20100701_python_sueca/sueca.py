@@ -27,7 +27,7 @@ def rodada(jogadas, trunfo):
     pontos_vencedor = somatorio(lista_de_cartas)
     vencedor = ""
     for dupla in cartas:
-        if dupla[1].valor == pontos_vencedor
+        if dupla[1].valor == pontos_vencedor:
             vencedor = dupla[0]
 
     return (jogadas[0][0], )
