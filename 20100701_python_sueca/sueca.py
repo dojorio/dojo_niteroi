@@ -18,8 +18,8 @@ class Carta(object):
         self.nome = nome
         self.valor = valores[self.nome]
 
-def __gt__(self, carta):
-    self.valor > carta.valor
+    def __gt__(self, carta):
+        self.valor > carta.valor
 
 def somatorio(cartas):
     return sum([carta.valor for carta in cartas])
