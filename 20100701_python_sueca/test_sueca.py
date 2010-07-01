@@ -7,10 +7,10 @@ class TestGanhadorDaRodada(unittest.TestCase):
 
     def test_jogador_1_ganha_com_A_copas_trunfo_Copas(self):
         cartas = [
-            Carta('Copas', 'A'),
-            Carta('Copas', '3'),
-            Carta('Copas', '4'),
-            Carta('Copas', '5'),
+            ('Alice', Carta('Copas', 'A')),
+            ('Bob', Carta('Copas', '3')),
+            ('Charlie', Carta('Copas', '4')),
+            ('Debora', Carta('Copas', '5')),
         ]
         trunfo = "Copas"
         self.assertEquals(rodada(cartas, trunfo), (0)
