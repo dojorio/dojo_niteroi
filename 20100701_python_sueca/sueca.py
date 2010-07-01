@@ -3,7 +3,7 @@ class Carta(object):
         self.naipe = naipe
         self.carta = carta
     def valor():
-        return 11;
+        return 11
 
 def pontuacao():
     return ''
