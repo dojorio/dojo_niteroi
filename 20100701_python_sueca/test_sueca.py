@@ -6,7 +6,7 @@ from sueca import rodada
 class TestGanhadorDaRodada(unittest.TestCase):
 
     def test_jogador_1_ganha_com_A_copas_trunfo_Copas(self):
-        cartas = [
+        jogadas = [
             ('Alice', Carta('Copas', 'A')),
             ('Bob', Carta('Copas', '3')),
             ('Charlie', Carta('Copas', '4')),
