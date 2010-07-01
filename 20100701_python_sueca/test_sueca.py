@@ -1,10 +1,11 @@
 import unittest
-from sueca import pontuacao
+from sueca import Carta
 
-class TestSueca(unittest.TestCase):
+class TestValoresCartas(unittest.TestCase):
 
-    def test_foo(self):
-        self.assertEquals(pontuacao(), '')
+    def test_A_vale_11_pontos(self):
+        carta = Carta('Copas', 'A')
+        self.assertEquals(carta.valor, 11)
 
 if __name__ == '__main__':
     unittest.main()
