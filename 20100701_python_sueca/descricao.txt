@@ -1,0 +1,17 @@
+Problema da sueca
+
+Entrada:
+Trunfo e 4 cartas
+
+Saída:
+Jogador que ganhou e a pontuação que ele ganhou na rodada
+
+Regras do Jogo:
+A --> 11 pontos
+7 --> 10 pontos
+K --> 4 pontos
+J --> 3 pontos
+Q --> 2 pontos
+
+6, 5, 4, 3, 2 --> 0 pontos
+8, 9, 10 --> Não existem no jogo
