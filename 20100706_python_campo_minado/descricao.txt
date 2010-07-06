@@ -1,0 +1,20 @@
+=== Campo Minado ===
+
+Dado com campo minado com as posições das minas, devemos dizer, para as posições
+vazias, quantas minas são vizinhas a ela.
+
+Exemplo:
+
+ENTRADA:
+
+--*-
+----
+-*--
+----
+
+SAÍDA:
+
+01*1
+1221
+1*10
+1110
