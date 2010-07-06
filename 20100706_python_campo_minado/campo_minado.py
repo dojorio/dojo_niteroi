@@ -10,11 +10,7 @@ class CampoMinado(object):
         self.campo = campo
 
     def solucao(self):
-        campotemporario= self.campo
-        for i in range(campo)
-            for j in range(campo i)
-                if j== '-'
-                    campotemporario[i] [j] == 0
+
 
 
 
