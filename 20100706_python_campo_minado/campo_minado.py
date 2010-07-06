@@ -15,6 +15,6 @@ class CampoMinado(object):
 
     def cria_campo(self, texto):
         return [
-            ['-','-']
-            ['-','-']
+            ['-','-'],
+            ['-','-'],
         ]
