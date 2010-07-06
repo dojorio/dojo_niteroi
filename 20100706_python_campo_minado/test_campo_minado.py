@@ -5,24 +5,17 @@ from campo_minado import CampoMinado
 class TestCampoMinado(unittest.TestCase):
 
     def test_2_x_2_sem_minas(self):
-        entrada = [
+
+        campo = CampoMinado([
             ['-', '-'],
             ['-', '-'],
-        ]
+        ])
         saida = [
             [0, 0],
             [0, 0],
         ]
-        entrada = CampoMinado([
-            ['-', '-'],
-            ['-', '-'],
-        ])
-        saida = CampoMinado([
-            [0, 0],
-            [0, 0],
-        ])
 
-        self.assertEquals(resultado(entrada), saida)
+        self.assertEquals(campo.solucao(), saida)
 
     def test_2_x_2_1_mina_canto_superior_esquerdo(self):
         entrada = [
