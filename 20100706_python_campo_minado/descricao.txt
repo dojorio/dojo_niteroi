@@ -1,7 +1,6 @@
 === Campo Minado ===
 
-Dado com campo minado com as posições das minas, devemos dizer, para as posições
-vazias, quantas minas são vizinhas a ela.
+Dado com campo minado com as posições das minas, devemos dizer, para as posições vazias, quantas minas são vizinhas a ela.
 
 Exemplo:
 
