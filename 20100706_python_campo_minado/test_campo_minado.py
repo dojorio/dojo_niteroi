@@ -3,7 +3,7 @@ from campo_minado import CampoMinado
 
 class TestCampoMinado(unittest.TestCase):
 
-    def test_constroi_campos_2_x_2(self):
+    def test_1constroi_campos_2_x_2(self):
         campo = CampoMinado("""
                 --
                 --"""
