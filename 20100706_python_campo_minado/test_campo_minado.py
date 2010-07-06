@@ -9,8 +9,8 @@ class TestCampoMinado(unittest.TestCase):
                 --"""
         )
         resultado = [
-            ['-', '-'],
-            ['-', '-'],
+            [0, 0],
+            [0, 0],
         ]
         self.assertEquals(campo.campo, resultado)
 
@@ -21,9 +21,9 @@ class TestCampoMinado(unittest.TestCase):
                 --*"""
         )
         resultado = [
-            ['-', '*', '-'],
-            ['-', '-', '*'],
-            ['-', '-', '*'],
+            [0, '*', 0],
+            [0, 0, '*'],
+            [0, 0, '*'],
         ]
         self.assertEquals(campo.campo, resultado)
 
