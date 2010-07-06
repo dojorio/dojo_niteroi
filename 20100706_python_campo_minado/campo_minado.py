@@ -6,6 +6,7 @@ class CampoMinado(object):
         for linha in linhas:
             linha = linha.strip()
             if linha:
+                campo.replace('-', '0')
                 campo.append([caracter for caracter in linha])
         self.campo = campo
 
