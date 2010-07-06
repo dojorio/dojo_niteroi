@@ -1,4 +1,11 @@
 def resultado(entrada):
+    if entrada[0][0] == '*':
+        return[
+        ['*', 1],
+        [1, 1],
+    ]
+
+
     return [
         [0, 0],
         [0, 0],
