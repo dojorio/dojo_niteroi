@@ -8,8 +8,6 @@ class CampoMinado(object):
                 ['*', 1],
                 [1, 1],
             ]
-
-
         return [
           [0, 0],
           [0, 0],
