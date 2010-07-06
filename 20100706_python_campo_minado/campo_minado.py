@@ -3,8 +3,8 @@ class CampoMinado(object):
         campo.strip()
         campo.splitlines()
         lista = [
-            [campo[0], campo[1]]
-            [campo[2], campo[3]]
+            [campo[0], campo[1]],
+            [campo[2], campo[3]],
         ]
         self.campo = lista
 
