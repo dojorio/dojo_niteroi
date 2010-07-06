@@ -4,7 +4,6 @@ from campo_minado import CampoMinado
 class TestCampoMinado(unittest.TestCase):
 
     def test_2_x_2_sem_minas(self):
-
         campo = CampoMinado([
                 ['-', '-'],
                 ['-', '-'],
