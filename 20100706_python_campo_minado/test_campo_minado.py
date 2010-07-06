@@ -12,7 +12,7 @@ class TestCampoMinado(unittest.TestCase):
             ['-', '-'],
             ['-', '-'],
         ]
-        self.assertEquals(campo.cria_campo(), resultado)
+        self.assertEquals(campo.campo, resultado)
 
 
     def test_2_x_2_sem_minas(self):
