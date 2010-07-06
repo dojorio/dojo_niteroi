@@ -1,7 +1,7 @@
 class CampoMinado(object):
     def __init__(self, campo):
-        campo.strip()
-        campo.splitlines()
+        campo = campo.strip()
+        campo = campo.splitlines()
         lista = [
             [campo[0], campo[1]],
             [campo[2], campo[3]],
