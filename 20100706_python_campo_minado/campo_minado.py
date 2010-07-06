@@ -1,6 +1,12 @@
 class CampoMinado(object):
     def __init__(self, campo):
-        self.campo=campo
+        campo.strip()
+        campo.splitline()
+        lista = [
+            [campo[0], campo[1]]
+            [campo[2], campo[3]]
+        ]
+        self.campo = lista
 
     def solucao(self):
         if self.campo[0][0] == '*':
