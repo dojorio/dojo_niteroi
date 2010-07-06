@@ -28,10 +28,9 @@ class TestCampoMinado(unittest.TestCase):
         self.assertEquals(campo.solucao(), saida)
 
     def test_2_x_2_1_mina_canto_superior_esquerdo(self):
-        campo = CampoMinado([
-                ['*', '-'],
-                ['-', '-'],
-            ]
+        campo = CampoMinado("""
+               *-
+               --"""
         )
         saida = [
             ['*',1],
