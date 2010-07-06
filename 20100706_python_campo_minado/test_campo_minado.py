@@ -14,6 +14,19 @@ class TestCampoMinado(unittest.TestCase):
         ]
         self.assertEquals(campo.campo, resultado)
 
+    def test_constroi_campos_3_x_3(self):
+        campo = CampoMinado("""
+                -*-
+                --*
+                --*"""
+        )
+        resultado = [
+            ['-', '*', '-'],
+            ['-', '-', '*'],
+            ['-', '-', '*'],
+        ]
+        self.assertEquals(campo.campo, resultado)
+
 
     def test_2_x_2_sem_minas(self):
         campo = CampoMinado("""
