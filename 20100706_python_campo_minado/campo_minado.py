@@ -8,16 +8,6 @@ class CampoMinado(object):
                 campo_lista.append([caracter for caracter in linha])
         self.campo = campo_lista
 
-
-
-
-        #campo = campo.strip()
-        #lista = [
-        #    [campo[0][0], campo[0][1]],
-        #    [campo[1][-2], campo[1][-1]],
-        #]
-        #self.campo = lista
-
     def solucao(self):
         if self.campo[0][0] == '*':
             return[
