@@ -1,4 +1,5 @@
 class CampoMinado(object):
+
     def __init__(self, campo_entrada):
         lista_linhas = campo_entrada.splitlines()
         campo_lista = []
