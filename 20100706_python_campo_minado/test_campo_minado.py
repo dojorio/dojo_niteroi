@@ -1,5 +1,5 @@
 import unittest
-from campo_minado import resultado
+from campo_minado import resultado,CampoMinado
 
 class TestCampoMinado(unittest.TestCase):
 
