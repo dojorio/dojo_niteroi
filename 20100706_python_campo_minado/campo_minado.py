@@ -10,7 +10,7 @@ class CampoMinado(object):
 
 
 def resultado(entrada):
-    if entrada[0][0] == '*':
+    if entrada.campo[0][0] == '*':
         return[
             ['*', 1],
             [1, 1],
