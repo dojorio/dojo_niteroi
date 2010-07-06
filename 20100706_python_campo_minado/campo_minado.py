@@ -4,7 +4,7 @@ class CampoMinado(object):
         campo = campo.splitlines()
         lista = [
             [campo[0][0], campo[0][1]],
-            [campo[1][0], campo[1][1]],
+            [campo[1][-2], campo[1][-1]],
         ]
         self.campo = lista
 
