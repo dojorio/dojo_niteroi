@@ -51,5 +51,16 @@ class TestCampoMinado(unittest.TestCase):
         ]
         self.assertEquals(campo.solucao(), saida)
 
+    def test_2_x_2_2_minas_primeira_linha(self):
+        campo = CampoMinado("""
+               **
+               --"""
+        )
+        saida = [
+            ['*','*'],
+            [2, 2],
+        ]
+        self.assertEquals(campo.solucao(), saida)
+
 if __name__ == '__main__':
     unittest.main()
