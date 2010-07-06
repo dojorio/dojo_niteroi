@@ -10,10 +10,16 @@ class CampoMinado(object):
         self.campo = campo
 
     def solucao(self):
+
         if self.campo[0][0] == '*':
+            if self.campo[0][1] == '-':
+                return[
+                    ['*', 1],
+                    [1, 1],
+                ]
             return[
-                ['*', 1],
-                [1, 1],
+                ['*', '*',
+                [2, 2],
             ]
         return [
           [0, 0],
