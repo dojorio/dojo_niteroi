@@ -18,7 +18,7 @@ class CampoMinado(object):
                     [1, 1],
                 ]
             return[
-                ['*', '*',
+                ['*', '*'],
                 [2, 2],
             ]
         return [
