@@ -12,6 +12,7 @@ class Jogada
       0
       if @matou == false
         -@bola_alvo
+      end
     else
       -@bola_da_vez
     end
