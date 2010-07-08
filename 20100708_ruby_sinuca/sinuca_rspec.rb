@@ -4,7 +4,7 @@
 
 require 'rubygems'
 require 'spec'
-require 'problema'
+require 'sinuca'
 
 describe Problema do
   it 'test pass' do
