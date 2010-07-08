@@ -11,9 +11,9 @@ class Jogada
     if @acertou
       0
       if @bola_alvo != @bola_da_vez
-        if @matou == false
-          -@bola_alvo
-        end
+        #if @matou == false
+          #-@bola_alvo
+        #end
       end
     else
       -@bola_da_vez
