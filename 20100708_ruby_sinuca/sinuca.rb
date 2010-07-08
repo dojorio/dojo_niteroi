@@ -6,7 +6,7 @@ class Jogada
     if acertou
     @pontos = 0
     else
-    @potos = -1
+    @pontos = -1
   end
 
 end
