@@ -9,9 +9,6 @@ class Jogada
 
   def pontos
 
-
-
-
     if @acertou
       if @bola_alvo != @bola_da_vez
         if @matou == false
