@@ -13,10 +13,10 @@ class Jogada
   end
 
   def pontos
-    if acertou
-      @pontos = 0
+    if @acertou
+      0
     else
-      @pontos = -1
+      1
     end
   end
 
