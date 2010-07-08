@@ -22,5 +22,9 @@ class Jogada
     end
   end
 
+  def matou_bola_da_vez
+    if @matou
+  end
+
 
 end
