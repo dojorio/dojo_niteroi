@@ -7,7 +7,7 @@ require 'spec'
 require 'sinuca'
 
 describe Jogada do
-  it 'acerta a bola da vez e nao mata deve retornar 0' do
+  it 'acerta a bola da vez 1 e nao mata deve retornar 0' do
     bola_da_vez = 1
     bola_alvo = bola_da_vez
     acertou = true
@@ -15,7 +15,7 @@ describe Jogada do
     Jogada.new(bola_da_vez, bola_alvo, acertou, matou).pontos().should == 0
   end
 
-  it 'erra a bola da vez e nao mata perde o ponto da bola da vez' do
+  it 'erra a bola da vez 1 e nao mata perde o ponto da bola da vez' do
     bola_da_vez = 1
     bola_alvo = bola_da_vez
     acertou = false
@@ -23,7 +23,7 @@ describe Jogada do
     Jogada.new(bola_da_vez, bola_alvo, acertou, matou).pontos().should == -1
   end
 
-  it 'erra a bola da vez e nao mata perde o ponto da bola da vez' do
+  it 'erra a bola da vez 2 e nao mata perde o ponto da bola da vez' do
     bola_da_vez = 2
     bola_alvo = bola_da_vez
     acertou = false
