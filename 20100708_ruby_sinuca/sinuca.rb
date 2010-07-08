@@ -8,16 +8,6 @@ class Jogada
   end
 
   def pontos
-    pontuacao = 0
-    if @bola_da_vez == @bola_alvo
-
-    else
-      if @acertou and not @matou
-        pontucao -= @bola_alvo
-      end
-    end
-    return pontuacao
-
 
 
 
