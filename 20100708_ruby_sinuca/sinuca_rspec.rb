@@ -13,3 +13,5 @@ describe Jogada do
     acertou = true
     matou = false
     Jogada.new(bola_da_vez, bola_alvo, acertou, matou).pontos.should == 0
+  end
+end
