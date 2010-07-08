@@ -30,4 +30,12 @@ describe Jogada do
     matou = false
     Jogada.new(bola_da_vez, bola_alvo, acertou, matou).pontos().should == -2
   end
+
+  it 'arrisca bola 7 e não mata perde o ponto da bola com bola da vez 2' do
+    bola_da_vez = 2
+    bola_alvo = 7
+    acertou = true
+    matou = false
+    Jogada.new(bola_da_vez, bola_alvo, acertou, matou).pontos().should == -7
+  end
 end
