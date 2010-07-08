@@ -1,7 +1,7 @@
-class Problema
+class Jogada
 
-  def soma(n1, n2)
-    n1 + n2
+  def initialize(bola_da_vez, bola_alvo, acertou, matou)
+    0
   end
 
 end
