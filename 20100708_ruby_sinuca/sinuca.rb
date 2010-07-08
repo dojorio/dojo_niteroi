@@ -11,7 +11,7 @@ class Jogada
     if @acertou
       0
     else
-      -1
+      -1*@bola_da_vez
     end
   end
 
