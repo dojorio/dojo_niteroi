@@ -20,6 +20,6 @@ describe Jogada do
     bola_alvo = bola_da_vez
     acertou = false
     matou = false
-    Jogada.new(bola_da_vez, bola_alvo, acertou, matou).pontos.should == -1
+    Jogada.new(bola_da_vez, bola_alvo, acertou, matou).pontos().should == -1
   end
 end
