@@ -25,8 +25,4 @@ class Jogada
     end
 
   end
-
-
-
-
 end
