@@ -18,7 +18,7 @@ class Jogada
 
     else
       if @acertou
-        if @matou == false
+        if not @matou
           return -@bola_alvo
         end
       end
