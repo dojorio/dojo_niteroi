@@ -18,7 +18,7 @@ class Jogada
       else
         0
       end
-    else
+    else # nao acertou
       -@bola_da_vez
     end
   end
