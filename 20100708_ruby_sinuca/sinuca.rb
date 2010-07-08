@@ -4,9 +4,10 @@ class Jogada
 
   def initialize(bola_da_vez, bola_alvo, acertou, matou)
     if acertou
-    @pontos = 0
+      @pontos = 0
     else
-    @pontos = -1
+      @pontos = -1
+    end
   end
 
 end
