@@ -16,7 +16,7 @@ class Jogada
     if @acertou
       0
     else
-      1
+      -1
     end
   end
 
