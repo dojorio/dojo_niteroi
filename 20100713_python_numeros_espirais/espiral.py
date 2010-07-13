@@ -6,9 +6,8 @@ def numeros_espirais(ordem):
     limite = ordem ** 2
     i, j = 0, 0
 
-    print matriz
-
     for numero in range(1, limite + 1):
+        print matriz
         if i == 0 and j < ordem:
             matriz[i][j] = numero
             j += 1
@@ -21,7 +20,6 @@ def numeros_espirais(ordem):
         if i == 1:
             j = ordem-1
             matriz[i][j] = numero
-
 
     return matriz
 
