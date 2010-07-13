@@ -1,4 +1,5 @@
 import unittest
+from espiral import numeros_espirais
 
 class TestEspiral(unittest.TestCase):
 
