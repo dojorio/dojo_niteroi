@@ -12,7 +12,7 @@ class TestEspiral(unittest.TestCase):
             [4, 3]
         ])
 
-    def _test_matriz_3_x_3(self):
+    def test_matriz_3_x_3(self):
         self.assertEqual(numeros_espirais(3), [
             [1, 2, 3],
             [8, 9, 4],
