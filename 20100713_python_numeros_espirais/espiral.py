@@ -19,7 +19,7 @@ def numeros_espirais(ordem):
             matriz[i][j] = numero
             continue
         if i == 1:
-            j = ordem-1
+
             j -= 1
             matriz[i][j] = numero
 
