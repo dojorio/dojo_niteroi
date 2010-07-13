@@ -9,7 +9,9 @@ def numeros_espirais(ordem):
     for numero in range(1, limite + 1):
         if i == 0 and j < ordem:
             matriz[i][j] = numero
-            print matriz
+            print matriz[i]
+            print matriz[j]
+
             j += 1
             continue
         if i == 0 and j == ordem:
