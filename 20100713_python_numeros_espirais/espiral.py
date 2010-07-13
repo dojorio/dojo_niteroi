@@ -1,2 +1,2 @@
 def numeros_espirais(ordem):
-    pass
+    return [[1]]
