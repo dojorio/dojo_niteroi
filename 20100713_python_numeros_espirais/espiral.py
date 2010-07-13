@@ -21,10 +21,9 @@ def numeros_espirais(ordem):
         if x == 0:
             incy = -1
             incx = 0
-        if matriz [x+incx, y+incy] == 0:
+        if matriz[y+incy][x+incx] == 0:
             incy = 0
             incx = 1
-
 
     return matriz
 
