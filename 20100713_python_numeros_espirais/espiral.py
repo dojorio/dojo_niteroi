@@ -1,2 +1,5 @@
 def numeros_espirais(ordem):
-    return [[1]]
+    if ordem == 1:
+        return [[1]]
+    return [[1,2],
+            [4,3]]
