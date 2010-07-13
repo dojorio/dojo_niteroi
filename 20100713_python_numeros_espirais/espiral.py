@@ -26,7 +26,7 @@ def numeros_espirais(ordem):
             incx = 1
 
 
-
+    return matriz
 
     if ordem == 1:
         return [[1]]
