@@ -21,6 +21,8 @@ def numeros_espirais(ordem):
         if i == 1:
             j = ordem-1
             matriz[i][j] = numero
+            j -= 1
+
 
 
     return matriz
