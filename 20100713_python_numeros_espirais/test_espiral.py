@@ -6,5 +6,11 @@ class TestEspiral(unittest.TestCase):
     def test_matriz_1_x_1(self):
         self.assertEqual(numeros_espirais(1), [[1]])
 
+    def test_matriz_2_x_2(self):
+        self.assertEqual(numeros_espirais(2), [
+            [1, 2],
+            [4, 3]
+        ])
+
 if __name__ == '__main__':
     unittest.main()
