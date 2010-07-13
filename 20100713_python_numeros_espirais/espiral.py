@@ -16,7 +16,7 @@ def numeros_espirais(ordem):
             j = ordem-1
             i += 1
             matriz[i][j] = numero
-        if i == 1:
+        elif i == 1:
             j -= 1
             matriz[i][j] = numero
 
