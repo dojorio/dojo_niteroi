@@ -20,6 +20,7 @@ def numeros_espirais(ordem):
             continue
         if i == 1:
             j = ordem-1
+            print matriz
             matriz[i][j] = numero
             j -= 1
 
