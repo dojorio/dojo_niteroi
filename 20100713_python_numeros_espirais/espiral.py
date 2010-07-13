@@ -1,8 +1,7 @@
 def numeros_espirais(ordem):
 
-
-    linha = [0] * ordem
-    matriz = [[0] * ordem] * ordem
+    linha = [0  for i in range(ordem)]
+    matriz = [linha for i in range(ordem)]
     print matriz
 
     limite = ordem ** 2
