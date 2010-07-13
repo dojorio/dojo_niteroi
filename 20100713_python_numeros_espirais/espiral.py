@@ -3,6 +3,7 @@ def numeros_espirais(ordem):
 
     linha = [0] * ordem
     matriz = [[0]] * ordem
+    print matriz
     limite = ordem ** 2
     i, j = 0, 0
 
