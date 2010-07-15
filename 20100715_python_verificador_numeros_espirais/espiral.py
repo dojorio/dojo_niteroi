@@ -11,11 +11,14 @@ class Matriz(object):
         return len(self.matriz[0])
 
     def ultima_linha(self):
-        return self.matriz[-1]
+        return self.linha(-1)
+
+    def linha(self, i):
+        return self.matriz[i]
 
     def e_matriz_espiral(self):
         if self.num_colunas == 2:
-            return self.elemento(0, 1) == self.elemento(0, 0) + 1
+            return lista_ordenada(self.
         return True
 
 def lista_ordenada(lista, reverso = False):
