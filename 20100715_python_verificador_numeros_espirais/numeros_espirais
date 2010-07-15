@@ -1,0 +1,15 @@
+INPUT:
+ 1  2  3
+10 11  4
+ 9 12  5
+ 8  7  6
+
+OUTPUT:
+True
+
+ 1  2  3
+ 1  2  4
+ 4  5  6
+
+OUTPUT:
+False
