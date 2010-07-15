@@ -22,7 +22,7 @@ class TestVerificaMatrizEspiral(unittest.TestCase):
             [1, 3],
         ]
         teste = Matriz(matriz)
-        self.assertTrue(teste.e_matriz_espiral())
+        self.assertFalse(teste.e_matriz_espiral())
 
 if __name__ == '__main__':
     unittest.main()
