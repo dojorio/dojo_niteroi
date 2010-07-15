@@ -10,7 +10,7 @@ class Matriz(object):
     def num_colunas(self):
         return len(self.matriz[0])
 
-    def linha(self):
+    def ultima_linha(self):
         return self.matriz[-1]
 
     def e_matriz_espiral(self):
