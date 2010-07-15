@@ -18,7 +18,7 @@ class Matriz(object):
 
     def e_matriz_espiral(self):
         if self.num_colunas == 2:
-            return lista_ordenada(self.linha(0)) and lista_ordenada(self.ultima_linha(), reverso=True)
+            return lista_ordenada_sequencialmente(self.linha(0)) and lista_ordenada_sequencialmente(self.ultima_linha(), reverso=True)
         return True
 
 def lista_ordenada_sequencialmente(lista, reverso = False):
