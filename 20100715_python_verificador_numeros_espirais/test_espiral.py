@@ -1,4 +1,5 @@
 import unittest
+from espiral import verifica_matriz_espiral
 
 class TestVerificaMatrizEspiral(unittest.TestCase):
 
