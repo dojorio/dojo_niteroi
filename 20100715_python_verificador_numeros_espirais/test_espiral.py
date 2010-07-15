@@ -13,7 +13,7 @@ class TestVerificaListaOrdenada(unittest.TestCase):
         self.assertTrue(lista_ordenada([1,2,3,4]))
 
     def test_lista_1_2_4_3esta_ordenada(self):
-        self.assertTrue(lista_ordenada([1,2,4,3])
+        self.assertFalse(lista_ordenada([1,2,4,3])
 
 
 class TestVerificaMatrizEspiral(unittest.TestCase):
