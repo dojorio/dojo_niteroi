@@ -1,2 +1,2 @@
 def verifica_matriz_espiral(matriz):
-    return 1
+    return True
