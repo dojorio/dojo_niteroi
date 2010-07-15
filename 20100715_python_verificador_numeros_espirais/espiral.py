@@ -21,5 +21,5 @@ class Matriz(object):
             return lista_ordenada(self.linha(0)) and lista_ordenada(self.ultima_linha(), reverso=True)
         return True
 
-def lista_ordenada(lista, reverso = False):
+def lista_ordenada_sequencialmente(lista, reverso = False):
     return lista == sorted(lista, reverse=reverso)
