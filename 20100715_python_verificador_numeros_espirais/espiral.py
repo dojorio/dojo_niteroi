@@ -1,5 +1,5 @@
 class Matriz:
-    matriz = [[]]
+
     def elemento(self, i, j):
         return self.matriz[i][j]
 
