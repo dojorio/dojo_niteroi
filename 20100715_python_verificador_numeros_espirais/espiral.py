@@ -12,5 +12,5 @@ class Matriz(object):
 
     def e_matriz_espiral(self):
         if self.colunas == 2:
-            return self.elemento(0,1) == self.elemento(0,0) + 1
+            return self.elemento(0, 1) == self.elemento(0, 0) + 1
         return True
