@@ -26,7 +26,7 @@ class TestVerificaMatrizEspiral(unittest.TestCase):
             [1, 2],
             [4, 3],
         ])
-        self.assertFalse(matriz.e_matriz_espiral())
+        self.assertTrue(matriz.e_matriz_espiral())
 
 if __name__ == '__main__':
     unittest.main()
