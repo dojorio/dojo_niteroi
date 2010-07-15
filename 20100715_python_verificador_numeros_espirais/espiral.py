@@ -3,7 +3,7 @@ class Matriz:
     def elemento(self, i, j):
         return matriz[i][j]
 
-    def define_matriz(nova_matriz):
+    def __init__(self, nova_matriz):
         matriz = nova_matriz
 
     def e_matriz_espiral(self):
