@@ -1,4 +1,4 @@
-class Matriz
+class Matriz:
     matriz = [[]]
     def elemento(self, i, j):
         return matriz[i][j]
