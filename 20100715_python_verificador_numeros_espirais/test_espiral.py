@@ -28,5 +28,12 @@ class TestVerificaMatrizEspiral(unittest.TestCase):
         ])
         self.assertTrue(matriz.e_matriz_espiral())
 
+    def test_matriz_2_x_2_retorna_false_pela_primeira_linha(self):
+        matriz = Matriz([
+            [1, 5],
+            [4, 3],
+        ])
+        self.assertFalse(matriz.e_matriz_espiral())
+
 if __name__ == '__main__':
     unittest.main()
