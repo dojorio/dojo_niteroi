@@ -3,10 +3,10 @@ from espiral import Matriz, lista_ordenada
 
 class TestVerificaListaOrdenada(unittest.TestCase):
 
-    def test_linha_esta_ordenada(self):
+    def test_lista_1_esta_ordenada(self):
         self.assertTrue(lista_ordenada([1]))
 
-    def test_linha_esta_ordenada(self):
+    def test_lista_1_2_esta_ordenada(self):
         self.assertTrue(lista_ordenada([1,2]))
 
 
