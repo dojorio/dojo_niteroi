@@ -18,6 +18,9 @@ class TestVerificaListaOrdenada(unittest.TestCase):
     def test_lista_1_2_3_4_nao_esta_ordenada_reversamente(self):
         self.assertFalse(lista_ordenada([1,2,3,4], True))
 
+    def test_lista_4_3_2_1_esta_ordenada_reversamente(self):
+        self.assertTrue(lista_ordenada([4,3,2,1], True))
+
 
 class TestVerificaMatrizEspiral(unittest.TestCase):
 
