@@ -17,3 +17,6 @@ class Matriz(object):
         if self.num_colunas == 2:
             return self.elemento(0, 1) == self.elemento(0, 0) + 1
         return True
+
+def lista_ordenada(lista):
+    return lista == sorted(lista)
