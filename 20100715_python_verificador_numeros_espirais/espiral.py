@@ -18,5 +18,5 @@ class Matriz(object):
             return self.elemento(0, 1) == self.elemento(0, 0) + 1
         return True
 
-def lista_ordenada(lista):
-    return lista == sorted(lista)
+def lista_ordenada(lista, reverso = False):
+    return lista == sorted(lista, reverse=reverso)
