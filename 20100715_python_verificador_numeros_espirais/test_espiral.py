@@ -13,14 +13,12 @@ class TestVerificaMatrizEspiral(unittest.TestCase):
         matriz = Matriz([
             [1, 2],
         ])
-        teste = Matriz(matriz)
         self.assertTrue(matriz.e_matriz_espiral())
 
     def test_matriz_1_x_2_retorna_false(self):
         matriz = Matriz([
             [1, 3],
         ])
-        teste = Matriz(matriz)
         self.assertFalse(matriz.e_matriz_espiral())
 
 if __name__ == '__main__':
