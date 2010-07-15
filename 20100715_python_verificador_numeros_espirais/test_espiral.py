@@ -1,28 +1,28 @@
 import unittest
-from espiral import Matriz, lista_ordenada
+from espiral import Matriz, lista_ordenada_sequencialmente
 
 class TestVerificaListaOrdenada(unittest.TestCase):
 
     def test_lista_1_esta_ordenada(self):
-        self.assertTrue(lista_ordenada([1]))
+        self.assertTrue(lista_ordenada_sequencialmente([1]))
 
     def test_lista_1_2_esta_ordenada(self):
-        self.assertTrue(lista_ordenada([1,2]))
+        self.assertTrue(lista_ordenada_sequencialmente([1,2]))
 
     def test_lista_1_2_3_4_esta_ordenada(self):
-        self.assertTrue(lista_ordenada([1,2,3,4]))
+        self.assertTrue(lista_ordenada_sequencialmente([1,2,3,4]))
 
     def test_lista_1_2_4_3_nao_esta_ordenada(self):
-        self.assertFalse(lista_ordenada([1,2,4,3]))
+        self.assertFalse(lista_ordenada_sequencialmente([1,2,4,3]))
 
     def test_lista_1_2_3_4_nao_esta_ordenada_reversamente(self):
-        self.assertFalse(lista_ordenada([1,2,3,4], True))
+        self.assertFalse(lista_ordenada_sequencialmente([1,2,3,4], True))
 
     def test_lista_4_3_2_1_esta_ordenada_reversamente(self):
-        self.assertTrue(lista_ordenada([4,3,2,1], True))
+        self.assertTrue(lista_ordenada_sequencialmente([4,3,2,1], True))
 
     def test_lista_3_4_2_1_nao_esta_ordenada_reversamente(self):
-        self.assertFalse(lista_ordenada([3,4,2,1], True))
+        self.assertFalse(lista_ordenada_sequencialmente([3,4,2,1], True))
 
 
 class TestVerificaMatrizEspiral(unittest.TestCase):
