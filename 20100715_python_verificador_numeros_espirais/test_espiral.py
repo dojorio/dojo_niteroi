@@ -7,3 +7,6 @@ class TestVerificaMatrizEspiral(unittest.TestCase):
             [1],
         ]
         self.assertTrue(verifica_matriz_espiral(matriz))
+
+if __name__ == '__main__':
+    unittest.main()
