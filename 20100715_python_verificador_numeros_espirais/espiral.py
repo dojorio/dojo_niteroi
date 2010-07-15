@@ -1,2 +1,2 @@
-def verifica_matriz_espiral(matriz)
+def verifica_matriz_espiral(matriz):
     pass
