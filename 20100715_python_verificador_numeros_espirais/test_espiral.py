@@ -7,24 +7,21 @@ class TestVerificaMatrizEspiral(unittest.TestCase):
         matriz = [
             [1],
         ]
-        teste = Matriz()
-        teste.define_matriz(matriz)
+        teste = Matriz(matriz)
         self.assertTrue(teste.e_matriz_espiral())
 
     def test_matriz_1_x_2_retorna_true(self):
         matriz = [
             [1, 2],
         ]
-        teste = Matriz()
-        teste.define_matriz(matriz)
+        teste = Matriz(matriz)
         self.assertTrue(teste.e_matriz_espiral())
 
     def test_matriz_1_x_2_retorna_false(self):
         matriz = [
             [1, 3],
         ]
-        teste = Matriz()
-        teste.define_matriz(matriz)
+        teste = Matriz(matriz)
         self.assertTrue(teste.e_matriz_espiral())
 
 if __name__ == '__main__':
