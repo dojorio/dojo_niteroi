@@ -1,12 +1,16 @@
-class Matriz:
-
-    def elemento(self, i, j):
-        return self.matriz[i][j]
+class Matriz(object):
 
     def __init__(self, nova_matriz):
         self.matriz = nova_matriz
 
+    def elemento(self, i, j):
+        return self.matriz[i][j]
+
+
+    def colunas(self):
+        return len(self.matriz[0])
+
     def e_matriz_espiral(self):
-        if len(self.matriz[0]) == 2:
-            return self.matriz[0][1] == self.matriz[0][0] + 1
+        if self.colunas() == 2:
+            return self.elemento(0,1) == self.elemento(0,0) + 1
         return True
