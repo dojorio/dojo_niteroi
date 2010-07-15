@@ -3,8 +3,6 @@ def numeros_espirais(ordem):
     linha = [0 for i in range(ordem)]
     matriz = [linha[:] for i in range(ordem)]
 
-
-
     limite = ordem ** 2
     i, j = 0, 0
 
@@ -19,8 +17,5 @@ def numeros_espirais(ordem):
         elif i == 1:
             j -= 1
             matriz[i][j] = numero
-
-
-
 
     return matriz
