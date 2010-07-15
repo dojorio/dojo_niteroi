@@ -9,11 +9,14 @@ class TestVerificaListaOrdenada(unittest.TestCase):
     def test_lista_1_2_esta_ordenada(self):
         self.assertTrue(lista_ordenada([1,2]))
 
-    def test_lista_1_2_3_4esta_ordenada(self):
+    def test_lista_1_2_3_4_esta_ordenada(self):
         self.assertTrue(lista_ordenada([1,2,3,4]))
 
     def test_lista_1_2_4_3_nao_esta_ordenada(self):
         self.assertFalse(lista_ordenada([1,2,4,3]))
+
+    def test_lista_1_2_3_4_nao_esta_ordenada_reversamente(self):
+        self.assertFalse(lista_ordenada([1,2,3,4], True))
 
 
 class TestVerificaMatrizEspiral(unittest.TestCase):
