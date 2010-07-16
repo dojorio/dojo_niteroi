@@ -10,6 +10,10 @@ class Matriz(object):
     def num_colunas(self):
         return len(self.matriz[0])
 
+    @property
+    def num_linhas(self)
+        return len(self.matriz)
+
     def ultima_linha(self):
         return self.linha(-1)
 
