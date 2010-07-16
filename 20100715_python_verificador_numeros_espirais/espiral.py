@@ -31,4 +31,4 @@ def lista_ordenada_sequencialmente(lista, reverso = False):
     #return lista == sorted(lista, reverse=reverso)
     if not reverso:
         return lista == range(lista[0], 1 + len(lista))
-    return lista == range(len(lista), lista[-1] -1, -1)
+    return lista == range(lista[0], lista[-1] -1, -1)
