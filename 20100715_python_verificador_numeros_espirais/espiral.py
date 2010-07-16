@@ -21,10 +21,11 @@ class Matriz(object):
         return self.matriz[i]
 
     def e_matriz_espiral(self):
-        if self.num_linhas == 1:
-            return lista_ordenada_sequencialmente(self.linha(0))
+        eh_espiral = lista_ordenada_sequencialmente(self.linha(0))
+        if self.num_linhas != 1:
+            eh_espiral = eh_espiral and lista_ordenada_sequencialmente(self.ultima_linha(), reverso=True)
 
-        return lista_ordenada_sequencialmente(self.linha(0)) and lista_ordenada_sequencialmente(self.ultima_linha(), reverso=True)
+        return eh_espiral
 
 def lista_ordenada_sequencialmente(lista, reverso = False):
     if not reverso:
