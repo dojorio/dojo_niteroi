@@ -16,13 +16,13 @@ class TestVerificaListaOrdenada(unittest.TestCase):
         self.assertFalse(lista_ordenada_sequencialmente([1,2,4,3]))
 
     def test_lista_1_2_3_4_nao_esta_ordenada_reversamente(self):
-        self.assertFalse(lista_ordenada_sequencialmente([1,2,3,4], True))
+        self.assertFalse(lista_ordenada_sequencialmente([1,2,3,4], reverso=True))
 
     def test_lista_4_3_2_1_esta_ordenada_reversamente(self):
-        self.assertTrue(lista_ordenada_sequencialmente([4,3,2,1], True))
+        self.assertTrue(lista_ordenada_sequencialmente([4,3,2,1], reverso=True))
 
     def test_lista_3_4_2_1_nao_esta_ordenada_reversamente(self):
-        self.assertFalse(lista_ordenada_sequencialmente([3,4,2,1], True))
+        self.assertFalse(lista_ordenada_sequencialmente([3,4,2,1], reverso=True))
 
     def test_lista_1_3_nao_esta_sequecialmente_ordenada(self):
         self.assertFalse(lista_ordenada_sequencialmente([1,3]))
