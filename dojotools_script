@@ -1,0 +1,3 @@
+#!/bin/bash
+
+python /home/bernardo/workspace/dojotools/dojotools.py -d /home/bernardo/workspace/dojo_niteroi/20100720_python_jokenpo 'python test_jokenpo.py' -t 300 -c
