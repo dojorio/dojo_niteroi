@@ -11,4 +11,5 @@ def divide_tesouro(tesouro, numero_piratas):
     valor_dividido = sum(valor_das_moedas) / numero_piratas
     if max(tesouro.keys()) > valor_dividido:
         return False
+
     return valor_dividido
