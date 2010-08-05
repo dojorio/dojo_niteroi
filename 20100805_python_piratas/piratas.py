@@ -16,4 +16,9 @@ def divide_tesouro(tesouro, numero_piratas):
 
     moedas_possiveis = sorted(tesouro.keys(), reverse=True)
 
+    for pirata in range(numero_piratas):
+        valor_desse_pirata = 0
+        while valor_desse_pirata < valor_dividido:
+
+
     return valor_dividido
