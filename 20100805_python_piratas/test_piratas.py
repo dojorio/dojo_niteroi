@@ -1,4 +1,5 @@
 import unittest
+from piratas import divide_tesouro
 
 class TestPiratas(unittest.TestCase):
 
