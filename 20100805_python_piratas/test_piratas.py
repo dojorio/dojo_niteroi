@@ -22,6 +22,6 @@ class TestPiratas(unittest.TestCase):
             3: 2,
         }
         piratas = 1
-        self.assertEqual(divide_tesouro(tesouro, piratas), 3)
+        self.assertEqual(divide_tesouro(tesouro, piratas), 6)
 
 unittest.main()
