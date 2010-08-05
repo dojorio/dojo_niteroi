@@ -3,4 +3,5 @@ def divide_tesouro(tesouro, numero_piratas):
     moeda = tesouro.keys()[0]
     for moeda, quantidade in tesouro.items():
         valor_por_pirata += quantidade * moeda
+
     return valor_por_pirata
