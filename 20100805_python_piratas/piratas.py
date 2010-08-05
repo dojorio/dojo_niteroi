@@ -1,2 +1,2 @@
 def divide_tesouro(tesouro, numero_piratas):
-    return 5
+    return tesouro.keys()[0]
