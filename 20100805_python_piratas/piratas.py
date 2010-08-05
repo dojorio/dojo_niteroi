@@ -1,0 +1,2 @@
+def piratas(entrada):
+    pass
