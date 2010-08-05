@@ -59,7 +59,7 @@ class TestPiratas(unittest.TestCase):
             3: 1,
             2: 1,
         }
-        piratas = 3
+        piratas = 2
         self.assertEqual(divide_tesouro(tesouro, piratas), 5)
 
 unittest.main()
