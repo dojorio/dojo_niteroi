@@ -30,6 +30,6 @@ class TestPiratas(unittest.TestCase):
             5: 1,
         }
         piratas = 1
-        self.assertEqual(divide_tesouro(tesouro, piratas), 6)
+        self.assertEqual(divide_tesouro(tesouro, piratas), 8)
 
 unittest.main()
