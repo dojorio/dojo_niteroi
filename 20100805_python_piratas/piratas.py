@@ -1,4 +1,4 @@
 def divide_tesouro(tesouro, numero_piratas):
-    moedas_do_pirata = [float(quantidade * moeda) / numero_piratas for moeda, quantidade in tesouro.items()]
+    total_das_moedas = [quantidade * moeda for moeda, quantidade in tesouro.items()]
 
-    return sum(moedas_do_pirata)
+    return sum(moedas_do_pirata) / numero_piratas
