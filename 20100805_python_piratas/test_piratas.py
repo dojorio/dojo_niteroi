@@ -39,4 +39,11 @@ class TestPiratas(unittest.TestCase):
         piratas = 2
         self.assertEqual(divide_tesouro(tesouro, piratas), 3)
 
+    def test_2_moedas_de_5_para_2_piratas(self):
+        tesouro = {
+            5: 2,
+        }
+        piratas = 2
+        self.assertEqual(divide_tesouro(tesouro, piratas), 5)
+
 unittest.main()
