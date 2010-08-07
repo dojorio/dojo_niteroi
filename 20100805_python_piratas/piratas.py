@@ -14,13 +14,19 @@ def divide_tesouro(tesouro, numero_piratas):
     if max(tesouro.keys()) > valor_dividido:
         return False
 
+    lista_de_moedas = []
+    for k,v in tesouro.items():
+        lista_de_moedas.extend([k] * v)
 
 
     #moedas_possiveis = sorted(tesouro.keys(), reverse=True)
 
-    #for pirata in range(numero_piratas):
-    #    valor_desse_pirata = 0
-    #    while valor_desse_pirata < valor_dividido:
-    #        valor_desse_pirata =
+    for pirata in range(numero_piratas):
+        valor_desse_pirata = 0
+        while valor_desse_pirata < valor_dividido:
+            i = 0
+            while valor_desse_pirata + lista_de_moedas[i] < valor_dividido:
+                valor_desse_pirata += lista_de_moedas[i].pop(i)
+                i+=1
 
     return valor_dividido
