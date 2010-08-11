@@ -1,0 +1,18 @@
+Problema:
+Dado um numero qualquer, contar quantos passos são necessários para que ele chegue ao numero 1 ou -1, sabendo que os passos são:
+-Dividir por 2, quando o numero for par
+-Incrementar 1, quando o numero for impar positivo
+-Decrementar 1, quando o numero for impar negativo
+
+ex:
+Entrada = 5
+5 -> 5 + 1 = 6 -> 6 / 2 = 3 -> 3 + 1 = 4 -> 4 / 2 =  2 -> 2 / 2 = 1
+Saida = 5
+
+
+Entrada = 1023
+1023 -> 1024 -> 512 -> 256 -> 128 -> 64 -> 32 -> 16 -> 8 -> 4 -> 2 -> 1
+Saida = 11
+
+
+ 
