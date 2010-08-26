@@ -4,7 +4,7 @@ import unittest
 def pesa_pedras(pedras, peso_ideal):
     if not pedras:
         return 'Não é possível'
-    return pedras[1]
+    return pedras["1 kg"]
 
 
 
