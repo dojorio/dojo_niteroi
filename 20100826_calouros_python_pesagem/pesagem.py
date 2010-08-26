@@ -1,7 +1,7 @@
 # -*- coding:utf-8 -*-
 import unittest
 
-def pesa_pedras(pedras, peso_ideal)
+def pesa_pedras(pedras, peso_ideal):
     return 'Não é possível'
 
 
