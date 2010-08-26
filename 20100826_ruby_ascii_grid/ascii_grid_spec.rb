@@ -5,7 +5,7 @@ require 'ascii_grid'
 describe "Conversor" do
 
   it 'should return an empty string when list is empty' do
-    conversor([[]]).should == ""
+    conversor([]).should == ""
   end
 
   it "should be 'A' when input is [[65, 0, 0]]" do
