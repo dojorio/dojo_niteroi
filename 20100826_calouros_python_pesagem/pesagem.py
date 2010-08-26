@@ -1,6 +1,6 @@
 import unittest
 
-class TestPesagemDasPedras(unittest.TestCase)
+class TestPesagemDasPedras(unittest.TestCase):
 
     def test_0_pedras_e_peso_ideal_1kg_retorna_nao_e_possivel(self)
         pedras = {}
