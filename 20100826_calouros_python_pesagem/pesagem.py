@@ -22,7 +22,7 @@ class TestPesagemDasPedras(unittest.TestCase):
 
     def test_1_pedra_de_1kg_e_peso_ideal_1kg_retorna_1(self):
         pedras = {
-            "1 kg" : 1
+            Pedra (1,"kg" ) : 1
         }
         self.assertEquals(pesa_pedras(pedras, 1), 1)
 
