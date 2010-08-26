@@ -1,11 +1,11 @@
 require 'rubygems'
 require 'spec'
+require 'ascii_grid'
 
-describe Ranking do
+describe "Conversor" do
 
   it 'should be an empty list when no country is given' do
-    ranking = Ranking.new(nil)
-    ranking.list.should == []
+    1.should == 1
   end
 
 
