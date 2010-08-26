@@ -1,6 +1,6 @@
 def conversor(list)
-  if list.count
-    return "A"
-  end
-  ""
+  if list.count == 0
+    ""
+  else
+    "A"
 end
