@@ -12,6 +12,11 @@ class Pedra(object):
     def __init__(self, unidade, medida):
         self.unidade = unidade
         self.medida = medida
+    def __eq__(self, outra_pedra):
+        if self.unidade == outra_pedra.unidade and self.medida == outra_pedra.medida:
+            return True
+        else:
+            return False
 
 
 class TestPesagemDasPedras(unittest.TestCase):
