@@ -8,5 +8,4 @@ describe "Conversor" do
     test.should == "Hello World"
   end
 
-
 end
