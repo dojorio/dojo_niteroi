@@ -4,7 +4,7 @@ import unittest
 def pesa_pedras(pedras, peso_ideal):
     try:
         return pedras[peso_ideal]
-    except:
+    except KeyError:
         return 'Não é possível'
 
 
