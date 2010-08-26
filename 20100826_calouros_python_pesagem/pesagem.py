@@ -9,6 +9,9 @@ def pesa_pedras(pedras, peso_ideal):
     return pedras["1 kg"]
 
 class Pedra(object):
+    def __init__(self, unidade, medida):
+        self.unidade = unidade
+        self.medida = medida
 
 
 class TestPesagemDasPedras(unittest.TestCase):
