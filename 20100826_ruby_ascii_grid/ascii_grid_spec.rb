@@ -8,23 +8,19 @@ describe "Conversor" do
     conversor([]).should == ""
   end
 
-  it "should be 'A' when input is [65, 0, 0]" do
+  it "should be 'A' when input is [[65, 0, 0]]" do
     conversor([65, 0, 0]).should == "A"
   end
 
-  it "should be 'B' when input is [66, 0, 0]" do
+  it "should be 'B' when input is [[66, 0, 0]]" do
     conversor([66, 0, 0]).should == "B"
   end
 
-  it "should be ' A' when input is [65, 0, 1]" do
+  it "should be ' A' when input is [[65, 0, 1]]" do
     conversor([65, 0, 1]).should == " A"
   end
 
-  it "should be '    A' when input is [65, 0, 4]" do
-    conversor([65, 0, 4]).should == "    A"
-  end
-
-  it "should be 'AB' when input is [65, 0, 4], " do
+  it "should be '    A' when input is [[65, 0, 4]]" do
     conversor([65, 0, 4]).should == "    A"
   end
 
