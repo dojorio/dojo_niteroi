@@ -12,4 +12,7 @@ describe "Conversor" do
     conversor([65, 0, 0]).should == "A"
   end
 
+  it "should be 'B' when input is [66, 0, 0]" do
+    conversor([66, 0, 0]).should == "B"
+
 end
