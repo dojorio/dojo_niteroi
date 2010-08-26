@@ -2,6 +2,8 @@ def conversor(list)
   if list.empty?
     ""
   else
-    list[0].chr
+    text = "  "
+    text[list[2]] = list[0].chr
+    text
   end
 end
