@@ -6,7 +6,7 @@ def conversor(list)
     text = " " * (column_of_first_input_line + 1)
 
     char_code_of_first_input_line = list[0][0]
-    text[column_of_first_input_line] = list[0][0].chr
+    text[column_of_first_input_line] = char_code_of_first_input_line.chr
     text.rstrip
 
   end
