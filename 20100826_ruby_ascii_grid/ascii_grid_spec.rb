@@ -4,8 +4,8 @@ require 'ascii_grid'
 
 describe "Conversor" do
 
-  it 'should be an empty list when no country is given' do
-    test.should == "Hello World"
+  it 'should return an empty string when list is empty' do
+    conversor([]) == ""
   end
 
 end
