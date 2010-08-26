@@ -4,6 +4,6 @@ def conversor(list)
   else
     text = "  "
     text[list[2]] = list[0].chr
-    text = text.rstrip
+    text.rstrip
   end
 end
