@@ -20,4 +20,8 @@ describe "Conversor" do
     conversor([65, 0, 1]).should == " A"
   end
 
+  it "should be '    A' when input is [65, 0, 4]" do
+    conversor([65, 0, 1]).should == "    A"
+  end
+
 end
