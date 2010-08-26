@@ -2,8 +2,10 @@
 import unittest
 
 def pesa_pedras(pedras, peso_ideal):
-
-    return 'Não é possível'
+    try:
+        return pedras[peso_ideal]
+    except:
+        return 'Não é possível'
 
 
 
