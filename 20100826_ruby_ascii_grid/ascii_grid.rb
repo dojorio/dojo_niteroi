@@ -3,4 +3,5 @@ def conversor(list)
     ""
   else
     "A"
+  end
 end
