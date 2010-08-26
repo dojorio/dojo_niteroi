@@ -8,7 +8,7 @@ def pesa_pedras(pedras, peso_ideal):
         return 1
     return pedras["1 kg"]
 
-class Pedra:
+class Pedra(object):
 
 
 class TestPesagemDasPedras(unittest.TestCase):
