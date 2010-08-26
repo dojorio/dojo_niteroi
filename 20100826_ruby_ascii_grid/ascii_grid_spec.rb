@@ -24,4 +24,9 @@ describe "Conversor" do
     conversor([[65, 0, 4]]).should == "    A"
   end
 
+  it "should be 'AB' when input is [[65, 0, 0], [66, 0, 1
+  ]]" do
+    conversor([[65, 0, 0], [66, 0, 1]]).should == "AB"
+  end
+
 end
