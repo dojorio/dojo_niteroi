@@ -25,7 +25,7 @@ describe "Conversor" do
   end
 
   it "should be 'A\nB' when input is [[65, 0, 0], [66, 0, 0]]" do
-    conversor([[65, 0, 0], [66, 0, 0]]).should == "AB"
+    conversor([[65, 0, 0], [66, 0, 0]]).should == "A\nB"
   end
 
 end
