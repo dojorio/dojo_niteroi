@@ -1,4 +1,6 @@
 def conversor(list)
+ if list[0] == nil
+ return ""
   if list[0].empty?
     ""
   else
