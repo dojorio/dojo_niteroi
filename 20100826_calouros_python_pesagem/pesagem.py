@@ -26,4 +26,10 @@ class TestPesagemDasPedras(unittest.TestCase):
         }
         self.assertEquals(pesa_pedras(pedras, 2), 2)
 
+    def test_1_pedras_de_2kg_e_peso_ideal_2kg_retorna_1(self):
+        pedras = {
+            "2 kg":1
+        }
+        self.assertEquals(pesa_pedras(pedras,2),1)
+
 unittest.main()
