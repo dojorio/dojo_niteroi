@@ -43,4 +43,5 @@ class TestPesagemDasPedras(unittest.TestCase):
         }
         self.assertEquals(pesa_pedras(pedras,2),1)
 
-unittest.main()
+if __name__ == '__main__':
+    unittest.main()
