@@ -1,17 +1,17 @@
 def conversor(list)
-  first_character = list[0]
+  first_element = list[0]
 
-  if primeiro_caracter == nil
+  if first_element == nil
     return ""
   end
 
-  if primeiro_caracter.empty?
+  if first_element.empty?
     ""
   else
-    column_of_first_input_line = primeiro_caracter[2]
+    column_of_first_input_line = first_element[2]
     text = " " * (column_of_first_input_line + 1)
 
-    char_code_of_first_input_line = primeiro_caracter[0]
+    char_code_of_first_input_line = first_element[0]
     text[column_of_first_input_line] = char_code_of_first_input_line.chr
     text.rstrip
 
