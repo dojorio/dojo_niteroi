@@ -1,7 +1,7 @@
 def conversor(list)
   first_element = list[0]
 
-  if second_element = list[1]
+  second_element = list[1]
 
   if first_element == nil
     return ""
