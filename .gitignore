@@ -6,4 +6,7 @@
 20100720_python_jokenpo/.swp
 20100720_python_jokenpo/.test_jokenpo.py.swp
 dojotools_script
-
+build
+build.xml
+manifest.mf
+nbproject
