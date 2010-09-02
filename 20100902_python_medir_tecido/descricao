@@ -1,0 +1,18 @@
+Dado que você tem dois tamanhos de régua, uma grande de 5 metros e outra pequena de 1 metro, você tem que saber se consegue ou não medir exatamente a quantidade de tecido necessária que a cliente pediu. Você receberá de entrada o número de réguas grandes, o número de réguas pequenas e o tamanho, em metros, desejado. A saída deversá ser True ou False em função da avaliação descrita acima.
+
+Exemplo:
+
+3 pequenos 1 grandes e 8 metros --> True
+3 pequenos 1 grandes e 9 metros --> False
+3 pequenos 2 grandes e 10 metros --> True
+6 pequenos 1 grandes e 11 metros --> True
+6 pequenos 0 grandes e 11 metros --> False
+3 pequenos 1 grandes e 7 metros --> True
+1 pequenos 1 grandes e 7 metros --> False
+2 pequenos 1 grandes e 7 metros --> True
+7 pequenos 1 grandes e 11 metros --> True
+7 pequenos 1 grandes e 8 metros --> True
+7 pequenos 1 grandes e 13 metros --> False
+2 pequenos 4 grandes e 11 metros --> True
+2 pequenos 4 grandes e 13 metros --> False
+0 pequenos 2 grandes e 10 metros --> True
