@@ -30,7 +30,7 @@ class TestTrianguloPascal(unittest.TestCase):
             [1, 3, 3, 1],
         ])
 
-class TestCombinacao(unittest.Testcase):
+class TestCombinacao(unittest.TestCase):
 
     def test_combinacao_1_a_1(self):
         self.assertEqual(combinacao(1, 1), 1)
