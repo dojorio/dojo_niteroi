@@ -1,3 +1,5 @@
+import math
+
 def triangulo_pascal(num_linhas):
 
 
@@ -24,6 +26,8 @@ def triangulo_pascal(num_linhas):
     ]
 
 def combinacao(a, b):
+    return math.factorial(a)/ (math.factorial(a-b)* math.factorial(b))
+
     if a==b:
         return 1
     return a
