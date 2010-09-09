@@ -1,4 +1,5 @@
 import unittest
+from tri_pascal import triangulo_pascal
 
 class TestTrianguloPascal(unittest.TestCase):
 
