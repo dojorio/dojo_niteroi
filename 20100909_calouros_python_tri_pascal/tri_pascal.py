@@ -1,2 +1,4 @@
 def triangulo_pascal(num_linhas):
-    pass
+    return [
+        [1],
+    ]
