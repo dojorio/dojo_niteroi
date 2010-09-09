@@ -9,7 +9,7 @@ def triangulo_pascal(num_linhas):
             [1],
             [1, 1],
         ]
-    elif num_linhas == 3:]
+    elif num_linhas == 3:
         return [
             [1],
             [1, 1],
