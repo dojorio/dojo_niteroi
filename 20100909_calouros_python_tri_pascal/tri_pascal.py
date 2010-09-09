@@ -26,4 +26,4 @@ def triangulo_pascal(num_linhas):
     ]
 
 def combinacao(n, p):
-    return fat(n)/(fat(n-p)*fat(p))
+    return fat(n) / (fat(n-p) * fat(p))
