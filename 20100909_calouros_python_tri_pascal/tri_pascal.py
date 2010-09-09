@@ -29,4 +29,4 @@ def combinacao(n, p):
     return fat(n) / (fat(n-p) * fat(p))
 
 def gera_linha(linhas):
-    pass
+    return [1]
