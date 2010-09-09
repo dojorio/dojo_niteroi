@@ -59,4 +59,7 @@ class TestGeraLinha(unittest.TestCase):
     def test_linha_2_retorna_1_1(self):
         self.assertEqual(gera_linha(2),[1, 1])
 
+    def test_linha_3_retorna_1_2_1(self):
+        self.assertEqual(gera_linha(3),[1, 2, 1])
+
 unittest.main()
