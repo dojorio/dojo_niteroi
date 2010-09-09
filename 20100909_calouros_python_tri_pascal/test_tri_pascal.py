@@ -14,4 +14,11 @@ class TestTrianguloPascal(unittest.TestCase):
             [1, 1],
         ])
 
+    def test_triangulo_3_linhas(self):
+        self.assertEqual(triangulo_pascal(3), [
+            [1],
+            [1, 1],
+            [1, 2, 1],
+        ])
+
 unittest.main()
