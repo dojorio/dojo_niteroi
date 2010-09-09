@@ -49,4 +49,11 @@ class TestCombinacao(unittest.TestCase):
 
     def test_combinacao_de_4_2_a_2(self):
         self.assertEqual(combinacao(4, 2), 6)
+
+class TestGeraLinha(unittest.TestCase):
+
+    def test_linha_1_retorna_1(self):
+        self.assertEqual(gera_linha(1),[1])
+
+
 unittest.main()
