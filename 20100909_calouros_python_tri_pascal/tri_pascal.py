@@ -24,6 +24,8 @@ def triangulo_pascal(num_linhas):
     ]
 
 def combinacao(a, b):
+    return a
+
     if a == 1:
         return 1
     else:
