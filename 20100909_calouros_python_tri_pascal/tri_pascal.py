@@ -29,5 +29,5 @@ def combinacao(n, p):
     return fat(n) / (fat(n-p) * fat(p))
 
 def gera_linha(linhas):
-    return [combinacao(linhas, i) for i in range(0, linhas + 1)]
+    return [combinacao(linhas - 1, i) for i in range(linhas)]
     return [1] * linhas
