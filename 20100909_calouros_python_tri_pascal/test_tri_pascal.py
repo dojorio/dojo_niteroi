@@ -31,6 +31,16 @@ class TestTrianguloPascal(unittest.TestCase):
             [1, 3, 3, 1],
         ])
 
+    def test_triangulo_6_linhas(self):
+        self.assertEqual(triangulo_pascal(6), [
+            [1],
+            [1, 1],
+            [1, 2, 1],
+            [1, 3, 3, 1],
+            [1, 4, 6, 4, 1],
+            [1, 5, 10, 10, 5, 1],
+        ])
+
 class TestCombinacao(unittest.TestCase):
 
     def test_combinacao_de_1_1_a_1(self):
