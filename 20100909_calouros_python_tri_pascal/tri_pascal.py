@@ -1,7 +1,7 @@
 from math import factorial as fat
 
 def triangulo_pascal(num_linhas):
-
+    return [gera_linha(i) for i in range(num_linhas)]
 
     if num_linhas == 1:
         return [
@@ -30,4 +30,3 @@ def combinacao(n, p):
 
 def gera_linha(linhas):
     return [combinacao(linhas - 1, i) for i in range(linhas)]
-    return [1] * linhas
