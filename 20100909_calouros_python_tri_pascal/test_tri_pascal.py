@@ -35,7 +35,7 @@ class TestCombinacao(unittest.TestCase):
     def test_combinacao_1_a_1(self):
         self.assertEqual(combinacao(1, 1), 1)
 
-    def test_combinacao_1_a_1(self):
+    def test_combinacao_1_a_1b(self):
         self.assertEqual(combinacao(2, 1), 2)
 
 unittest.main()
