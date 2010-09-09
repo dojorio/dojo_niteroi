@@ -25,9 +25,5 @@ def triangulo_pascal(num_linhas):
         [1, 3, 3, 1],
     ]
 
-def combinacao(a, b):
-    return math.factorial(a)/ (math.factorial(a-b)* math.factorial(b))
-
-    if a==b:
-        return 1
-    return a
+def combinacao(n, p):
+    return math.factorial(n)/ (math.factorial(n-p)* math.factorial(p))
