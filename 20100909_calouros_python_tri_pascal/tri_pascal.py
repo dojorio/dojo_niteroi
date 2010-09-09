@@ -1,5 +1,6 @@
 def triangulo_pascal(num_linhas):
 
+
     if num_linhas == 1:
         return [
             [1],
@@ -21,3 +22,6 @@ def triangulo_pascal(num_linhas):
         [1, 2, 1],
         [1, 3, 3, 1],
     ]
+
+def combinacao(a, b):
+    return 1
