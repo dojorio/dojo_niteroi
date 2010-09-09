@@ -1,6 +1,7 @@
 import unittest
 from tri_pascal import combinacao
 from tri_pascal import triangulo_pascal
+from tri_pascal import gera_linha
 
 class TestTrianguloPascal(unittest.TestCase):
 
