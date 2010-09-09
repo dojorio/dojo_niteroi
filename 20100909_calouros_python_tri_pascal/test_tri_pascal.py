@@ -6,3 +6,5 @@ class TestTrianguloPascal(unittest.TestCase):
         self.assertEqual(triangulo_pascal(1), [
             [1],
         ])
+
+unittest.main()
