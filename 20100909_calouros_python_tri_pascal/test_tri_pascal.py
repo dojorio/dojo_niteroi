@@ -46,4 +46,7 @@ class TestCombinacao(unittest.TestCase):
 
     def test_combinacao_de_3_2_a_2(self):
         self.assertEqual(combinacao(3, 2), 3)
+
+    def test_combinacao_de_4_2_a_2(self):
+        self.assertEqual(combinacao(4, 2), 6)
 unittest.main()
