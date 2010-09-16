@@ -11,13 +11,13 @@ class NumeroRomano(object):
     def to_int(self):
         resultado = 0
         pilha = list(self.valor)
-        while pilha:
-            ultimo = self.dic[pilha.pop()]
-            penultimo = self.dic[pilha.pop()]
-            if penultimo < ultimo:
-                resultado -= penultimo
+        ultimo = ''
+        while pilha
+            atual = pilha.pop()
+            if atual == 'I' and ultimo in ['X', 'V']:
+                resultado -= self.dic[atual]
             else:
-                resultado += self.dic[pilha.pop()]
+                resultado += self.dic[atual]
             #resultado += self.dic[pilha.pop()]
         return resultado
 
