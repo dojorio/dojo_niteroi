@@ -11,7 +11,7 @@ class NumeroRomano(object):
     def to_int(self):
         resultado = 0
         for i, caractere in enumerate(self.valor):
-            if i<len(self.valor-2) and self.dic[self.valor[i+1]] > self.dic[caractere]:
+            if i<len(self.valor)-1 and self.dic[self.valor[i+1]] > self.dic[caractere]:
                 resultado -= self.dic[caractere]
             else:
                 resultado += self.dic[caractere]
