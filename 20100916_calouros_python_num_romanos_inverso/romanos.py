@@ -12,7 +12,13 @@ class NumeroRomano(object):
         resultado = 0
         pilha = list(self.valor)
         while pilha:
-            resultado += self.dic[pilha.pop()]
+            ultimo = self.dic[pilha.pop()]
+            penultimo = self.dic[pilha.pop()]
+            if penultimo < ultimo:
+                resultado -= penultimo
+            else
+                resultado += self.dic[pilha.pop()]
+            #resultado += self.dic[pilha.pop()]
         return resultado
 
 
