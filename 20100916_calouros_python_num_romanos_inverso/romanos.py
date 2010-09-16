@@ -4,6 +4,6 @@ class NumeroRomano(object):
         self.valor = valor
 
     def to_int(self):
-        if self.valor == 'V':
-            return 5
+        if self.valor[-1] == 'V':
+            return 6 - len(self.valor)
         return len(self.valor)
