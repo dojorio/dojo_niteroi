@@ -15,7 +15,7 @@ class NumeroRomano(object):
         tamanho = len(self.valor)
         ultimo = self.valor[-1]
         primeiro = self.valor[0]
-        if ultimo == 'V' and primeiro == 'X'
+        if ultimo == 'V' and primeiro == 'X':
             if tamanho == 3
                 return 14
             return 15
