@@ -60,6 +60,10 @@ class TestRomanos(unittest.TestCase):
         numero_romano = NumeroRomano('XIV')
         self.assertEqual(numero_romano.to_int(), 14)
 
+    def test_XV_deve_retornar_15(self):
+        numero_romano = NumeroRomano('XV')
+        self.assertEqual(numero_romano.to_int(), 15)
+
 
 
 unittest.main()
