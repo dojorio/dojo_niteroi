@@ -10,7 +10,7 @@ class NumeroRomano(object):
 
     def to_int(self):
         resultado = 0
-        for i, caractere in enumerate(self.valor):
+        for caractere in self.valor:
             resultado += self.dic[caractere]
         return resultado
 
