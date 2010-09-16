@@ -40,5 +40,10 @@ class TestRomanos(unittest.TestCase):
         numero_romano = NumeroRomano('X')
         self.assertEqual(numero_romano.to_int(), 10)
 
+    def test_IX_deve_retornar_9(self):
+        numero_romano = NumeroRomano('IX')
+        self.assertEqual(numero_romano.to_int(), 9)
+
+
 
 unittest.main()
