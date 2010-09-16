@@ -12,6 +12,7 @@ class NumeroRomano(object):
         resultado = 0
         for i, caractere in enumerate(self.valor):
             resultado += self.dic[caractere]
+        return resultado
 
 
         tamanho = len(self.valor)
