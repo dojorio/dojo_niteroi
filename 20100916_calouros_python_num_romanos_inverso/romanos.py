@@ -9,6 +9,11 @@ class NumeroRomano(object):
         }
 
     def to_int(self):
+        resultado = 0
+        for i, caractere in enumerate(self.valor):
+            resultado += self.dic[caractere]
+
+
         tamanho = len(self.valor)
         ultimo = self.valor[-1]
         primeiro = self.valor[0]
