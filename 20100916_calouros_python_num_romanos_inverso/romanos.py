@@ -18,7 +18,7 @@ class NumeroRomano(object):
                 resultado -= self.dic[atual]
             else:
                 resultado += self.dic[atual]
-            #resultado += self.dic[pilha.pop()]
+            ultimo = atual
         return resultado
 
 
