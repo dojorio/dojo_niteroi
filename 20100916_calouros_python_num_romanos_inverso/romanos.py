@@ -9,16 +9,12 @@ class NumeroRomano(object):
         }
 
     def to_int(self):
-      #  if self.valor == 'XIV':
-       #     return 14
-
         tamanho = len(self.valor)
         ultimo = self.valor[-1]
         primeiro = self.valor[0]
+
         if ultimo == 'V' and primeiro == 'X':
-            if tamanho == 3:
-                return 14
-            return 15
+            tamanho = 17 - tamanho
         if ultimo == 'X' or ultimo == 'V':
             tamanho = self.dic[ultimo] - tamanho + 1
         elif primeiro == 'X' or primeiro == 'V':
