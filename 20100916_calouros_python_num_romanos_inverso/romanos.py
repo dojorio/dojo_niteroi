@@ -11,9 +11,9 @@ class NumeroRomano(object):
             'X': 10,
         }
         if self.valor[-1] == 'X' or self.valor[-1] == 'V':
-            tamanho = dic[self.valor[-1]] - tamanho
+            tamanho = dic[self.valor[-1]] - tamanho + 1
         elif self.valor[0] == 'X' or self.valor[0] == 'V':
-            tamanho = dic[self.valor[0]] + tamanho
+            tamanho = dic[self.valor[0]] + tamanho - 1
         if self.valor[-1] == 'X':
             tamanho = 11 - tamanho
         elif self.valor[0] == 'X':
