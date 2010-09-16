@@ -12,4 +12,8 @@ class TestRomanos(unittest.TestCase):
         numero_romano = NumeroRomano('II')
         self.assertEqual(numero_romano.to_int(), 2)
 
+    def test_III_deve_retornar_3(self):
+        numero_romano = NumeroRomano('III')
+        self.assertEqual(numero_romano.to_int(), 3)
+
 unittest.main()
