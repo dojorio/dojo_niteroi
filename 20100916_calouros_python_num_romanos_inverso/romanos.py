@@ -16,7 +16,7 @@ class NumeroRomano(object):
             penultimo = self.dic[pilha.pop()]
             if penultimo < ultimo:
                 resultado -= penultimo
-            else
+            else:
                 resultado += self.dic[pilha.pop()]
             #resultado += self.dic[pilha.pop()]
         return resultado
