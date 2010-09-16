@@ -10,6 +10,17 @@ class NumeroRomano(object):
 
     def to_int(self):
         resultado = 0
+        pilha = list(self.valor)
+        while pilha:
+            resultado += dic[pilha.pop()]
+        return resultado
+
+
+
+
+
+
+
         for i, caractere in enumerate(self.valor):
             if i<len(self.valor)-1 and self.dic[self.valor[i+1]] > self.dic[caractere]:
                 resultado -= self.dic[caractere]
