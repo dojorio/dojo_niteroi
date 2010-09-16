@@ -12,7 +12,7 @@ class NumeroRomano(object):
         resultado = 0
         pilha = list(self.valor)
         while pilha:
-            resultado += dic[pilha.pop()]
+            resultado += self.dic[pilha.pop()]
         return resultado
 
 
