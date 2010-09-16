@@ -9,8 +9,8 @@ class NumeroRomano(object):
         }
 
     def to_int(self):
-        if self.valor == 'XIV':
-            return 14
+      #  if self.valor == 'XIV':
+       #     return 14
 
         tamanho = len(self.valor)
         ultimo = self.valor[-1]
