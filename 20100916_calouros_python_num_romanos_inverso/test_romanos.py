@@ -1,5 +1,7 @@
 import unittest
 
+from romanos import Romano
+
 class TestRomanos(unittest.TestCase):
 
     def test_I_deve_retornar_1(self):
