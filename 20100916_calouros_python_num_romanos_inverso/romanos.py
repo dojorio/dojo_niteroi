@@ -4,4 +4,4 @@ class NumeroRomano(object):
         self.valor = valor
 
     def to_int(self):
-        return 1
+        return len(self.valor)
