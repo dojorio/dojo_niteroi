@@ -28,5 +28,9 @@ class TestRomanos(unittest.TestCase):
         numero_romano = NumeroRomano('VI')
         self.assertEqual(numero_romano.to_int(), 6)
 
+    def test_VII_deve_retornar_7(self):
+        numero_romano = NumeroRomano('VII')
+        self.assertEqual(numero_romano.to_int(), 7)
+
 
 unittest.main()
