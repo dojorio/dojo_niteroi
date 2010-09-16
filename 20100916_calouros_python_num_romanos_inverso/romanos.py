@@ -28,7 +28,7 @@ class NumeroRomano(object):
             tamanho = 17 - tamanho
         elif ultimo == 'X' or ultimo == 'V':
             tamanho = self.dic[ultimo] - tamanho + 1
-        elif primeiro == 'X' oself.dic[caractere]r primeiro == 'V':
+        elif primeiro == 'X' or self.dic[caractere]r primeiro == 'V':
             tamanho = self.dic[primeiro] + tamanho - 1
 
         return tamanho
