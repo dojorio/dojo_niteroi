@@ -4,8 +4,8 @@ class NumeroRomano(object):
         self.valor = valor
 
     def to_int(self):
-        if self.valor == 'X':
-            return 10
+        #if self.valor == 'X':
+           # return 10
         tamanho = len(self.valor)
         if self.valor[-1] == 'X':
             tamanho = 11 - tamanho
