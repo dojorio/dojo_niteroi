@@ -20,16 +20,3 @@ class NumeroRomano(object):
                 resultado += self.dic[atual]
             ultimo = atual
         return resultado
-
-
-
-
-
-
-
-        for i, caractere in enumerate(self.valor):
-            if i<len(self.valor)-1 and self.dic[self.valor[i+1]] > self.dic[caractere]:
-                resultado -= self.dic[caractere]
-            else:
-                resultado += self.dic[caractere]
-        return resultado
