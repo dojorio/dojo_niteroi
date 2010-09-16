@@ -7,6 +7,8 @@ class NumeroRomano(object):
         if self.valor == 'X':
             return 10
         tamanho = len(self.valor)
+        if self.valor[-1] == 'X':
+            tamanho = 11 - tamanho
         if self.valor[-1] == 'V':
             tamanho = 6 - tamanho
         elif self.valor[0] == 'V':
