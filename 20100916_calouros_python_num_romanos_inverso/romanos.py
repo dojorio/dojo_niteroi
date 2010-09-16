@@ -11,7 +11,12 @@ class NumeroRomano(object):
     def to_int(self):
         resultado = 0
         for i, caractere in enumerate(self.valor):
-            resultado += self.dic[caractere]
+
+            if i < len(self.valor-1) and self.dic[self.valor[i+1]] > self.dic[caractere] :
+                resultado -= self.dic[caractere]
+            else:
+                resultado += self.dic[caractere]
+
         return resultado
 
 
@@ -23,7 +28,7 @@ class NumeroRomano(object):
             tamanho = 17 - tamanho
         elif ultimo == 'X' or ultimo == 'V':
             tamanho = self.dic[ultimo] - tamanho + 1
-        elif primeiro == 'X' or primeiro == 'V':
+        elif primeiro == 'X' oself.dic[caractere]r primeiro == 'V':
             tamanho = self.dic[primeiro] + tamanho - 1
 
         return tamanho
