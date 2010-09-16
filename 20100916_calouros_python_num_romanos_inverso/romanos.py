@@ -12,7 +12,7 @@ class NumeroRomano(object):
         resultado = 0
         pilha = list(self.valor)
         ultimo = ''
-        while pilha
+        while pilha:
             atual = pilha.pop()
             if atual == 'I' and ultimo in ['X', 'V']:
                 resultado -= self.dic[atual]
