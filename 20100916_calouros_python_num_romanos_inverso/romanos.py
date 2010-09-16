@@ -14,8 +14,6 @@ class NumeroRomano(object):
         tamanho = len(self.valor)
         ultimo = self.valor[-1]
         primeiro = self.valor[0]
-        for pos in valor:
-
         if ultimo == 'X' or ultimo == 'V':
             tamanho = self.dic[ultimo] - tamanho + 1
         elif primeiro == 'X' or primeiro == 'V':
