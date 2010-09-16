@@ -5,6 +5,15 @@ class NumeroRomano(object):
 
     def to_int(self):
         tamanho = len(self.valor)
+        dic = {
+            'I': 1,
+            'V': 5,
+            'X': 10,
+        }
+        if self.valor[-1] == 'X' or self.valor[-1] == 'V':
+            tamanho = dic[self.valor[-1]] - tamanho
+        elif self.valor[0] == 'X' or self.valor[0] == 'V':
+            tamanho = dic[self.valor[0]] + tamanho
         if self.valor[-1] == 'X':
             tamanho = 11 - tamanho
         elif self.valor[0] == 'X':
