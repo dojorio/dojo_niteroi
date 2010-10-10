@@ -1,0 +1,28 @@
+Problema: Tijolos
+
+Tijolos pequenos possuem 1 polegada
+Tijolos grandes possuem 5 polegadas
+
+Entrada:
+Numero de tijolos pequenos
+Numero de tijolos grandes
+Tamanho desejado
+
+Saida:
+Possivel ou não chegar ao tamanho desejado
+
+
+Ex:
+Entrada:
+1 tijolo pequeno
+1 tijolo grande
+tamanho desejado: 6 polegadas
+Saida
+É possível!
+
+Entrada:
+1 tijolo pequeno
+2 tijolos grandes 
+tamanho desejado: 7 polegadas
+Saída:
+Não é possível!
