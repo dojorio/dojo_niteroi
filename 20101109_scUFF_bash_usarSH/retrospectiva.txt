@@ -1,0 +1,9 @@
+usamos bash +
+aprendi bash 
+pouca gente (roda bastante) +
+terminamos a caluladora basica
+
+pouca gente +
+tempo que demoramos para começar ++
+echo é diferente de return ++
+
