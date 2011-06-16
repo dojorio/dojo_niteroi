@@ -1,3 +1,4 @@
 def brainfuck(codigo, input)
-  (input[0]+codigo.count('+')-codigo.count('-')).to_s
+  valor = input[0] + codigo.count('+') - codigo.count('-')
+  valor.to_s
 end
