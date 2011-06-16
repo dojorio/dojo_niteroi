@@ -1,7 +1,7 @@
 def brainfuck(codigo, input)
   if codigo==',+.'
-    return "#{input[0]+1}"   
+    (input[0]+1).to_s   
   else
-  "#{input[0]}"
-   end
+    input[0].to_s
+  end
 end
