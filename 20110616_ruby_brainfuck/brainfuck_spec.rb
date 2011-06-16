@@ -1,7 +1,7 @@
 require 'brainfuck'
 
 describe 'Brainfuck' do
-  it 'should test brainfuck' do
-    brainfuck.should == nil
+  it ',. com input [1] deve retornar 1' do
+    brainfuck(',.', [1]).should == 1
   end
 end

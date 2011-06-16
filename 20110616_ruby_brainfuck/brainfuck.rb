@@ -1,3 +1,3 @@
-def brainfuck 
-  nil
+def brainfuck codigo,input 
+  1
 end
