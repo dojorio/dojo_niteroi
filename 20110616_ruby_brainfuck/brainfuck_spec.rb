@@ -32,11 +32,17 @@ describe 'Brainfuck' do
   it ',-. com input [5] deve retornar 4' do
     brainfuck(',-.', [5]).should == "4"
   end
+  
   it ',-++--++. com input [1] deve retornar 2' do
     brainfuck(',-++--++.', [1]).should == "2"  
   end
+  
   it ',,. com input [1,2] deve retornar 2' do
     brainfuck(',,.', [1,2]).should == "2"
+  end
+  
+  it ',,. com input [3,5] deve retornar 5' do
+    brainfuck(',,.', [3,5]).should == "5"
   end
 end
 
