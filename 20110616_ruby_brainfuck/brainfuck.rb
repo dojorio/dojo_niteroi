@@ -1,3 +1,3 @@
-def brainfuck codigo,input 
-  1
+def brainfuck(codigo, input)
+  input[0]
 end
