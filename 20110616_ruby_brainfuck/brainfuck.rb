@@ -1,7 +1,3 @@
 def brainfuck(codigo, input)
-  if codigo==',+.'
-    (input[0]+1).to_s   
-  else
-    input[0].to_s
-  end
+  (input[0]+codigo.count('+')-codigo.count('-')).to_s
 end

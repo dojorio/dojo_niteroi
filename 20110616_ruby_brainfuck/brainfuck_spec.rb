@@ -16,8 +16,20 @@ describe 'Brainfuck' do
   it ',+. com input [3] deve retornar 4' do
     brainfuck(',+.', [3]).should == "4"
   end
+
   it ',+. com input [5] deve retornar 6' do
     brainfuck(',+.', [5]).should == "6"
   end
+  
+  it ',++. com input [5] deve retornar 7' do
+    brainfuck(',++.', [5]).should == "7"
+  end
 
+  it ',+++. com input [5] deve retornar 8' do
+    brainfuck(',+++.', [5]).should == "8"
+  end
+
+  it ',-. com input [5] deve retornar 4' do
+    brainfuck(',-.', [5]).should == "4"
+  end
 end
