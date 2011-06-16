@@ -1,0 +1,1 @@
+gcc testmatrizespiral.c -o testmatrizespiral.test && ./testmatrizespiral.test
