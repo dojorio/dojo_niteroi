@@ -12,4 +12,8 @@ describe 'Brainfuck' do
   it ',. com input [3] deve retornar 3' do
     brainfuck(',.', [3]).should == "3"
   end
+
+  it ',+. com input [3] deve retornar 4' do
+    brainfuck(',+.', [3]).should == "4"
+  end
 end

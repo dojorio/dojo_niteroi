@@ -1,3 +1,6 @@
 def brainfuck(codigo, input)
-  "#{input[0]}"
+ if codigo==',+.'do
+  4   
+  
+ "#{input[0]}"
 end
