@@ -7,6 +7,9 @@ def brainfuck(codigo, input)
     elsif ['+', '-'].include? c 
       valor = valor.send(c, 1)
     end
+    
+    if c == '.'
+       valor = input[-1]    
   end
   return valor.to_s
 end
