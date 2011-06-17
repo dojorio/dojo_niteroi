@@ -48,6 +48,14 @@ describe 'Brainfuck' do
   it ',,,. com input [3,5,4] deve retornar 4' do
     brainfuck(',,,.', [3,5,4]).should == "4"
   end
+
+  it ',+,. com input [10,12] deve retornar 4' do
+    brainfuck(',+,.', [10,12]).should == "12"
+  end
+
+  it ',++,. com input [10,14] deve retornar 4' do
+    brainfuck(',+,.', [10,14]).should == "14"
+  end
 end
 
 
