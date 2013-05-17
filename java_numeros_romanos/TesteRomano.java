@@ -5,8 +5,7 @@ import static org.junit.Assert.*;
 
 public class TesteRomano {
 
-    public Romano conversor = new Romano();
-
+    public Romano conversor = new Romano();    
     
     @Test
     public void teste1RetornaI() {

@@ -1,0 +1,19 @@
+Positivos:
+
+Vitor: Mais contato com Java, primeiro contato real com programação
+Marcelo: Aprendi a usar testes em Java
+Matheus: ---
+Thales: Chegamos quase no final do problema, pessoas novas
+Matheus Froes: Avançamos bastante com o problema, conheci novas pessoas
+Rodrigo: Problema, mais pessoas
+
+Melhorar:
+Vitor: Mulheres
+Marcelo: Completar o problema
+Thales: Pode vir mais gente, metade das pessoas chamadas não vieram, não refutarem oq eu falo
+Matheus: Java
+Matheus Froes: Não teve comida
+Rodrigo: ---
+
+Sugestões:
+Linguagem: Fortran, C#, outras linguagens...
