@@ -13,7 +13,7 @@ describe 'HappyNumbers' do
   end
   
   it 'numero 3 deve ser infeliz' do
-    is_happy_number?(3).should be_false  
+    is_happy_number?(3).should be_false
   end
   
   it 'numero 4 deve ser infeliz' do

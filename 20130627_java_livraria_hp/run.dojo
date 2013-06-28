@@ -1,0 +1,2 @@
+javac -cp junit.jar:. ./src/*.java -d ./build/classes && javac -cp junit.jar:.:./build/classes ./test/LocadoraTeste.java -d ./build/classes && java -cp junit.jar:.:./build/classes:./build/classes org.junit.runner.JUnitCore LocadoraTeste
+
