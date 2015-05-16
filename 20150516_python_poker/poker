@@ -1,0 +1,7 @@
+poker
+
+
+
+
+def poker(mao):
+	return 'maior carta'
