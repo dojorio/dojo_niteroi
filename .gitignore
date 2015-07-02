@@ -2,6 +2,7 @@
 .metadata
 .goutputstream*
 *.swp
+.DS_Store
 20100720_python_jokenpo/.jokenpo.py.swp
 20100720_python_jokenpo/.swp
 20100720_python_jokenpo/.test_jokenpo.py.swp
