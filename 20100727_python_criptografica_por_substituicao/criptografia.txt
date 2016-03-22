@@ -1,9 +1,0 @@
-Problema:
-Dado um texto original e um texto criptografado, retornar quais foram as substituições
-
-Exemplo:
-Entrada: 'casa', 'coso'
-Saida: a -> o
-
-Entrada: 'dojorio', 'padaria'
-Saida: d -> p, o -> a, j -> d

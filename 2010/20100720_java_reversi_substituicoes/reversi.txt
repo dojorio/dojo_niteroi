@@ -1,0 +1,27 @@
+Problema:
+Dado um jogo de reversi e uma jogada qualquer, determinar quais serão as altarações que essa jogada fará no tabuleiro
+
+
+Entrada  
+
+ ox
+ xo
+
+ o em (2,0)
+
+Saida
+ ox
+ooo
+
+
+Entrada  
+
+ ox
+ooo
+
+ x em (3,0)
+
+Saida
+ ox
+oxo
+x
