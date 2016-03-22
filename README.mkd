@@ -1,4 +1,4 @@
 DojoRio@Niterói
 ===============
 
-Este repositório tem armazena os códigos produzidos nas sessões de Coding Dojo que acontecem na UFF, em Niterói.
+Este repositório tem armazena os códigos produzidos nas sessões de Coding Dojo que acontecem em Niterói.
